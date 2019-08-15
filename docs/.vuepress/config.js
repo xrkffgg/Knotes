@@ -6,7 +6,7 @@ module.exports = ctx => ({
 
   // main
   title: 'My Notes',
-  description: '人 生 记 录',
+  description: '记 录',
   port: 8888,
   head: [
     ['link', { rel: 'icon', href: `/ico.png`}],
@@ -15,14 +15,14 @@ module.exports = ctx => ({
   themeConfig: {
     nav: [
       { 
-        text: 'Home', 
+        text: '主 页', 
         link: '/' 
       },
       { 
-        text: 'Notes', 
+        text: '记 录', 
         items: [
-          { text: 'Blog', link: '/blog/' },
-          { text: 'Notes', link: '/notes/' }
+          { text: '技 术', link: '/blog/' },
+          { text: '日 常', link: '/notes/' }
         ]
       },
       { text: 'GitHub', link: 'https://github.com/xrkffgg/Knotes' },
@@ -37,10 +37,29 @@ module.exports = ctx => ({
 
 function getBlogSidebar() {
   return [
-    '/blog/'
+    {
+      title: '技 术',
+      collapsable: false,
+      children: [
+        '',
+        '002',
+        '003',
+        '004',
+        '005',
+        '006',
+        '007',
+        '008',
+      ]
+    }
   ]
 }
 
 function getNotesSidebar() {
-
+  return {
+    title: '日 常',
+    collapsable: false,
+    children: [
+      '',
+    ]
+  }
 }
