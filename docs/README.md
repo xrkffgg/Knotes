@@ -4,9 +4,9 @@ actionText: Show →
 actionLink: /blog/
 features:
 - title: 技 术
-  details: 技术学习分享
+  details: 技术分享文章
 - title: 日 常
-  details: 记录日常想法
+  details: 记录日常学习
 ---
 
 ## 💖 My Projects
