@@ -1,5 +1,5 @@
 node_modules
-Knotes
+/Knotes
 
 # local env files
 .env.local

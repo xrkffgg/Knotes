@@ -3,9 +3,9 @@ home: true
 actionText: Show →
 actionLink: /blog/
 features:
-- title: 博文
+- title: 技 术
   details: 技术学习分享
-- title: 摘记
+- title: 日 常
   details: 记录日常想法
 ---
 

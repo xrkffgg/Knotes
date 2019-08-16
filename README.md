@@ -16,11 +16,13 @@
 
 ## 启动
 
-- `yarn dev`
+- `yarn start`
 
 ## 打包
 
 - `yarn build`
+
+> 有点坑的地方是，打包后，本地打开无主题，扔到 GitHub.io 上正常。
 
 ## LICENSE
 
