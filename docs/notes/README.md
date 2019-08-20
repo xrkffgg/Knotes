@@ -1,8 +1,11 @@
-# 2019.08 
+---
+sidebarDepth: 2
+---
+# 日 常
+## 2019.08
+### 2019.08.16
 
-## 2019.08.16
-
-### 1 `length` 判断
+#### `length` 判断
 ```
 // old
 if(a.length > 0){
@@ -14,3 +17,19 @@ if(a.length > 0){
 ```
 
 > 不仅是 0 ，也适用于 其他 ''、null、undefined
+
+### 2019.08.19
+
+#### Vuepress 自定义容器
+
+::: tip TIP
+This is a tip
+:::
+
+::: warning Warning
+This is a warning
+:::
+
+::: danger Danger
+This is a dangerous warning
+:::

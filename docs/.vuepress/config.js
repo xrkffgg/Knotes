@@ -1,5 +1,7 @@
-// https://vuepress.vuejs.org/zh/config
+// 技术文章序号
+const BlogIndex = 12
 
+// https://vuepress.vuejs.org/zh/config
 module.exports = ctx => ({
   dest: './Knotes/',
   base: '/Knotes/',
@@ -16,30 +18,36 @@ module.exports = ctx => ({
   ],
   themeConfig: {
     nav: [
-      { 
+      {
         text: '主 页', 
-        link: '/' 
+        link: 'https://xrkffgg.github.io/'
       },
-      { 
+      {
         text: '记 录', 
         items: [
           { text: '技 术', link: '/blog/' },
-          { text: '日 常', link: '/notes/' }
+          { text: '日 常', link: '/notes/' },
         ]
       },
+      {
+        text: '学习资料',
+        link: '/learn/'
+      },
+      { text: '提BUG', link: 'https://github.com/xrkffgg/xrkffgg.github.io/issues' },
       { text: 'GitHub', link: 'https://github.com/xrkffgg/Knotes' },
     ],
     lastUpdated: '上次更新',
     sidebar: {
       '/blog/': getBlogSidebar(),
-      '/notes/': getNotesSidebar(),
+      '/notes/': [''],
+      '/learn/': [''],
     }
   }
 })
 
 function getBlogSidebar() {
   let arr = []
-  let index = 12
+  let index = BlogIndex
   for(let i=2; i<index+1;i++){
     arr.push(''+i)
   }
@@ -48,18 +56,6 @@ function getBlogSidebar() {
       title: '技 术',
       collapsable: false,
       children: ['',...arr]
-    }
-  ]
-}
-
-function getNotesSidebar() {
-  return [
-    {
-      title: '日 常',
-      collapsable: false,
-      children: [
-        '',
-      ]
     }
   ]
 }
