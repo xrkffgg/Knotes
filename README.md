@@ -15,6 +15,10 @@
 
 - 本项目以 [`Vuepress`](https://vuepress.vuejs.org/zh/) 为基础，用于记录各种 文章类
 
+## 线上预览地址
+
+- [地 址](https://xrkffgg.github.io/Knotes/)
+
 ## 启动
 
 - `yarn start`
