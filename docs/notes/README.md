@@ -33,3 +33,24 @@ This is a warning
 ::: danger Danger
 This is a dangerous warning
 :::
+
+## 2019.09
+### 2019.09.16
+
+#### 金额千分格式化
+
+```
+function convert(money){
+  let str = money.toString();
+  let res = [];
+  let start = str.length%3;
+  if(start !== 0){
+    res.push(str.substr(0, start));
+  }
+  while(start < str.length){
+    res.push(str.substr(start, 3));
+    start += 3;
+  }
+  return res.join(',');
+}
+```

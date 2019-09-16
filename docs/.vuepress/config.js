@@ -25,8 +25,8 @@ module.exports = ctx => ({
       {
         text: '记 录', 
         items: [
-          { text: '技 术', link: '/blog/' },
-          { text: '日 常', link: '/notes/' },
+          { text: '文 章', link: '/blog/' },
+          { text: '摘 记', link: '/notes/' },
         ]
       },
       {
