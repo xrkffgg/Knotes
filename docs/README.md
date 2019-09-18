@@ -3,10 +3,10 @@ home: true
 actionText: Show →
 actionLink: /blog/
 features:
-- title: 技 术
-  details: 技术分享文章
-- title: 日 常
-  details: 记录日常学习
+- title: 记 录
+  details: 技术文章、日常摘记
+- title: 学 习
+  details: 查阅资料、工具收集
 ---
 
 ## 💖 My Projects Introduce

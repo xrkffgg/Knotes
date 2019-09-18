@@ -30,8 +30,11 @@ module.exports = ctx => ({
         ]
       },
       {
-        text: '学习资料',
-        link: '/learn/'
+        text: '学 习',
+        items: [
+          { text: '资 料', link: '/learn/' },
+          { text: '工 具', link: '/tool/' },
+        ]
       },
       { text: '提BUG', link: 'https://github.com/xrkffgg/xrkffgg.github.io/issues' },
       { text: 'GitHub', link: 'https://github.com/xrkffgg/Knotes' },
@@ -41,6 +44,7 @@ module.exports = ctx => ({
       '/blog/': getBlogSidebar(),
       '/notes/': [''],
       '/learn/': [''],
+      '/tool/': [''],
     }
   }
 })
@@ -53,7 +57,7 @@ function getBlogSidebar() {
   }
   return [
     {
-      title: '技 术',
+      title: '文 章',
       collapsable: false,
       children: ['',...arr]
     }
