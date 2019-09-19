@@ -34,6 +34,9 @@ sidebarDepth: 2
 #### 6 自定义滚动条
 > vuescroll
 
+#### 7 水纹点击效果
+> [https://www.zhangxinxu.com/wordpress/2017/12/understand-svg-fedisplacementmap-filter/](https://www.zhangxinxu.com/wordpress/2017/12/understand-svg-fedisplacementmap-filter/)
+
 ### 2.2 图 标
 #### 1 remixicon
 > [https://remixicon.com/](https://remixicon.com/)
