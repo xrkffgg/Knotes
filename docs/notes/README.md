@@ -33,3 +33,15 @@ This is a warning
 ::: danger Danger
 This is a dangerous warning
 :::
+
+### 2019.09.20
+
+#### Vue阻止右键默认行为
+::: tip
+<!--不阻止右键菜单(浏览器行为)，右键执行函数show-->
+<input type="button" value="按钮" @contextmenu="show()"> 
+<!--阻止右键菜单-->
+<input type="button" value="按钮" @contextmenu.prevent>
+<!--阻止右键菜单(浏览器行为)，右键执行函数show-->
+<input type="button" value="按钮" @contextmenu.prevent="show1()">
+:::
