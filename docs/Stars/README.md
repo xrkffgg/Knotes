@@ -6,8 +6,19 @@ sidebarDepth: 1
 ::: tip
 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目，初始 `init` 时间为 **2019.09.23**
 
-当前数量为：<span style="color: red;">**92**</span>
+当前数量为：<span style="color: red;">**95**</span>
 :::
+
+## 2019.09.24
+### [zerosoul/chinese-colors](https://github.com/zerosoul/chinese-colors)
+> Chinese traditional color cheatsheet online
+
+### [ziyi2/algorithms](https://github.com/ziyi2/algorithms)
+> 算法导论与JavaScript实现
+
+### [any86/any-touch](https://github.com/any86/any-touch)
+> 一个手势库, 支持微信小程序 / 鼠标 / touch / vue
+
 ## init
 
 ### [max2max/freess](https://github.com/max2max/freess)
