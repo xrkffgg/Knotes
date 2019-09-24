@@ -9,7 +9,7 @@ sidebarDepth: 1
 当前数量为：<span style="color: red;">**95**</span>
 :::
 
-## 🕧 2019.09.24
+## 🕧 2019.09.24 <Badge text="+3"/>
 ### [zerosoul/chinese-colors](https://github.com/zerosoul/chinese-colors)
 > Chinese traditional color cheatsheet online
 
@@ -19,7 +19,7 @@ sidebarDepth: 1
 ### [any86/any-touch](https://github.com/any86/any-touch)
 > 一个手势库, 支持微信小程序 / 鼠标 / touch / vue
 
-## 🕛 init
+## 🕛 init <Badge text="92"/>
 
 ### [max2max/freess](https://github.com/max2max/freess)
 > 免费ss账号 免费shadowsocks账号 免费v2ray账号
