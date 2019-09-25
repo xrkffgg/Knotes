@@ -28,6 +28,7 @@ module.exports = ctx => ({
           { text: '文 章', link: '/blog/' },
           { text: '摘 记', link: '/notes/' },
           { text: 'Stars', link: '/Stars/' },
+          { text: '随 笔', link: '/Essay/' },
         ]
       },
       {
@@ -47,6 +48,7 @@ module.exports = ctx => ({
       '/learn/': [''],
       '/tool/': [''],
       '/Stars/': [''],
+      '/Essay/': [''],
     }
   }
 })
@@ -59,7 +61,7 @@ function getBlogSidebar() {
   }
   return [
     {
-      title: '文 章',
+      title: '📄 文 章',
       collapsable: false,
       children: ['',...arr]
     }

@@ -2,7 +2,7 @@
 sidebarDepth: 2
 ---
 
-# 资 料
+# 📋 资 料
 ## Vue
 ### [Vue中文网](https://cn.vuejs.org/)
 

@@ -1,25 +1,31 @@
 ---
 sidebarDepth: 2
 ---
-# 摘 记
-## 2019.08
-### 2019.08.16
+# 📖 摘 记
+## 🌞 2019.09
+### 🕜 2019.09.25
 
-#### `length` 判断
+::: tip
+- 吹爆 `VSCode` + `cascadia-code` + `Atom One Dark` 
+:::
+
+### 🕐 2019.09.20
+#### Vue阻止右键默认行为
+::: tip
 ```
-// old
-if(a.length > 0){
-  do()
-}
+<!--不阻止右键菜单(浏览器行为)，右键执行函数show-->
+<input type="button" value="按 钮" @contextmenu="show()"> 
 
-// new
-!!a.length && do()
+<!--阻止右键菜单-->
+<input type="button" value="按 钮" @contextmenu.prevent>
+
+<!--阻止右键菜单(浏览器行为)，右键执行函数show-->
+<input type="button" value="按 钮" @contextmenu.prevent="show()">
 ```
+:::
 
-> 不仅是 0 ，也适用于 其他 ''、null、undefined
-
-### 2019.08.19
-
+## 🌞 2019.08
+### 🕧 2019.08.19
 #### Vuepress 自定义容器
 
 ::: tip TIP
@@ -34,19 +40,16 @@ This is a warning
 This is a dangerous warning
 :::
 
-## 2019.09
-### 2019.09.20
-
-#### Vue阻止右键默认行为
-::: tip
+### 🕛 2019.08.16
+#### `length` 判断
 ```
-<!--不阻止右键菜单(浏览器行为)，右键执行函数show-->
-<input type="button" value="按 钮" @contextmenu="show()"> 
+// old
+if(a.length > 0){
+  do()
+}
 
-<!--阻止右键菜单-->
-<input type="button" value="按 钮" @contextmenu.prevent>
-
-<!--阻止右键菜单(浏览器行为)，右键执行函数show-->
-<input type="button" value="按 钮" @contextmenu.prevent="show()">
+// new
+!!a.length && do()
 ```
-:::
+
+> 不仅是 0 ，也适用于 其他 ''、null、undefined

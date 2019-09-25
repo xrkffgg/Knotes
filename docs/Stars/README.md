@@ -1,15 +1,46 @@
 ---
 sidebarDepth: 1
 ---
-# Stars
+# 🌟 Stars
 
 ::: tip
-按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目，初始 `init` 时间为 **2019.09.23**
+- 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-当前数量为：<span style="color: red;">**95**</span>
+- 当前数量为：<span style="color: red;">**106**</span>
 :::
 
-## 🕧 2019.09.24 <Badge text="+3"/>
+## 🕐 2019.09.25 <Badge text="+10"/>
+### [microsoft/vscode](https://github.com/microsoft/vscode)
+> Visual Studio Code
+
+### [microsoft/cascadia-code](https://github.com/microsoft/cascadia-code)
+> This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.
+
+### [tonsky/FiraCode](https://github.com/tonsky/FiraCode)
+> Monospaced font with programming ligatures
+
+### [Tencent/TencentOS-tiny](https://github.com/Tencent/TencentOS-tiny)
+> 腾讯物联网终端操作系统
+
+### [gxtrobot/bustag](https://github.com/gxtrobot/bustag)
+> a tag and recommend system for old bus driver
+
+### [pcottle/learnGitBranching](https://github.com/pcottle/learnGitBranching)
+> An interactive git visualization to challenge and educate!
+
+### [charliegerard/Epoc.js](https://github.com/charliegerard/Epoc.js)
+> Node.js addon for the Emotiv C++ SDK
+
+### [233boy/v2ray](https://github.com/233boy/v2ray)
+> 最好用的 V2Ray 一键安装脚本 & 管理脚本
+
+### [surmon-china/vue-codemirror](https://github.com/surmon-china/vue-codemirror)
+> ⌨️ @codemirror component for @vuejs 
+
+### [codemirror/CodeMirror](https://github.com/codemirror/CodeMirror)
+> In-browser code editor
+
+## 🕧 2019.09.24 <Badge text="+4"/>
 ### [zerosoul/chinese-colors](https://github.com/zerosoul/chinese-colors)
 > Chinese traditional color cheatsheet online
 
@@ -19,8 +50,10 @@ sidebarDepth: 1
 ### [any86/any-touch](https://github.com/any86/any-touch)
 > 一个手势库, 支持微信小程序 / 鼠标 / touch / vue
 
-## 🕛 init <Badge text="92"/>
+### [30-seconds/30-seconds-of-css](https://github.com/30-seconds/30-seconds-of-css)
+> A curated collection of useful CSS snippets you can understand in 30 seconds or less.
 
+## 🕛 2019.09.23 <Badge text="92"/> <Badge text="before"/>
 ### [max2max/freess](https://github.com/max2max/freess)
 > 免费ss账号 免费shadowsocks账号 免费v2ray账号
 
