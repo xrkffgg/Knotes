@@ -6,8 +6,33 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**106**</span>
+- 当前数量为：<span style="color: red;">**114**</span>
 :::
+
+## 🕜 2019.09.26 <Badge text="+8"/>
+### [jamiebuilds/babel-handbook](https://github.com/jamiebuilds/babel-handbook)
+> Babel 手册
+
+## [trazyn/ieaseMusic](https://github.com/trazyn/ieaseMusic)
+> 网易云音乐第三方
+
+## [biigpongsatorn/vue-infinite-slide-bar](https://github.com/biigpongsatorn/vue-infinite-slide-bar)
+>  Infinite slide bar component
+
+## [guyueyingmu/avbook](https://github.com/guyueyingmu/avbook)
+> PHP av book
+
+## [kalasoo/xitu-gold-dev](https://github.com/kalasoo/xitu-gold-dev)
+> 加入掘金开发前的准备工作
+
+## [F-happy/RenZhengfei](https://github.com/F-happy/RenZhengfei)
+> 任正非思想
+
+## [Jannchie/Historical-ranking-data-visualization-based-on-d3.js](https://github.com/Jannchie/Historical-ranking-data-visualization-based-on-d3.js)
+> 这是一个数据可视化项目，能够将历史数据排名转化为动态柱状图图表
+
+## [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh)
+> 《动手学深度学习》：面向中文读者、能运行、可讨论。英文版即伯克利“深度学习导论”教材。
 
 ## 🕐 2019.09.25 <Badge text="+10"/>
 ### [microsoft/vscode](https://github.com/microsoft/vscode)

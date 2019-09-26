@@ -2,9 +2,40 @@
 sidebarDepth: 2
 ---
 # 📖 摘 记
-## 🌞 2019.09
-### 🕜 2019.09.25
+::: tip
+- 记录开发过程中 知识点
+:::
 
+## 🌞 2019.09
+### 🕑 2019.09.26
+#### 获取当前URL Ip/Host
+::: tip
+```
+<!-- 获取当前URL ip -->
+console.log(window.location.host)
+```
+:::
+
+#### 关闭当前页签
+::: tip
+```
+if (navigator.userAgent.indexOf("Firefox") != -1 || navigator.userAgent.indexOf("Chrome") != -1) {  
+  window.location.href="about:blank";  
+  window.close();  
+} else {
+  window.opener = null;  
+  window.open("", "_self");  
+  window.close();  
+}  
+```
+:::
+
+#### 空 格
+```
+&nbsp;
+```
+
+### 🕜 2019.09.25
 ::: tip
 - 吹爆 `VSCode` + `cascadia-code` + `Atom One Dark` 
 :::

@@ -1,12 +1,14 @@
 ---
 sidebarDepth: 2
 ---
-
 # 📌 工 具
+::: tip
+- 记录实用软件、开发组件、美化
+:::
+
 ## 1. 软 件
 ### 1.1 工 具
 #### 1 ScreenToGif
-
 > [https://github.com/NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif)
 
 ### 1.2 系 统
@@ -27,15 +29,17 @@ sidebarDepth: 2
 > [https://github.com/rstacruz/nprogress/](https://github.com/rstacruz/nprogress/)
 
 #### 5 滚动插件
-> better-scroll
-> 
-> swiper
+> - better-scroll
+> - swiper
 
 #### 6 自定义滚动条
 > vuescroll
 
 #### 7 水纹点击效果
 > [https://www.zhangxinxu.com/wordpress/2017/12/understand-svg-fedisplacementmap-filter/](https://www.zhangxinxu.com/wordpress/2017/12/understand-svg-fedisplacementmap-filter/)
+
+#### Vue 文字 图片滚动条
+> [vue-infinite-slide-bar](https://github.com/biigpongsatorn/vue-infinite-slide-bar)
 
 ### 2.2 图 标
 #### 1 remixicon

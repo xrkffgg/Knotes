@@ -6,7 +6,7 @@ module.exports = ctx => ({
   dest: './Knotes/',
   base: '/Knotes/',
   // main
-  title: 'My Notes',
+  title: 'Knotes',
   description: '记 录',
   port: 8888,
   head: [
@@ -27,16 +27,21 @@ module.exports = ctx => ({
         items: [
           { text: '文 章', link: '/blog/' },
           { text: '摘 记', link: '/notes/' },
-          { text: 'Stars', link: '/Stars/' },
           { text: '随 笔', link: '/Essay/' },
+          { text: 'Stars', link: '/Stars/' },
         ]
       },
       {
         text: '学 习',
         items: [
+          { text: '笔 记', link: '/note/' },
           { text: '资 料', link: '/learn/' },
           { text: '工 具', link: '/tool/' },
         ]
+      },
+      {
+        text: '书 籍',
+        link: '/book/list',
       },
       { text: '提BUG', link: 'https://github.com/xrkffgg/xrkffgg.github.io/issues' },
       { text: 'GitHub', link: 'https://github.com/xrkffgg/Knotes' },
@@ -49,6 +54,8 @@ module.exports = ctx => ({
       '/tool/': [''],
       '/Stars/': [''],
       '/Essay/': [''],
+      '/note/': [''],
+      '/book/': getBookSidebar(),
     }
   }
 })
@@ -64,6 +71,19 @@ function getBlogSidebar() {
       title: '📄 文 章',
       collapsable: false,
       children: ['',...arr]
+    }
+  ]
+}
+
+function getBookSidebar(){
+  return [
+    {
+      title: '📚 书 籍',
+      collapsable: false,
+      children: [
+        '/book/list',
+        '/book/unKnowJs',
+      ]
     }
   ]
 }

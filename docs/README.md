@@ -1,12 +1,16 @@
 ---
 home: true
+heroImage: /logo.png
 actionText: Show →
 actionLink: /blog/
+footer: Copyright © 2019 xrkffgg
 features:
 - title: 记 录
   details: 技术文章、日常摘记
 - title: 学 习
   details: 查阅资料、工具收集
+- title: 书 籍
+  details: 书籍摘抄、笔记分享
 ---
 
 ## 💖 My Projects Introduce
