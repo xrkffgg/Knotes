@@ -6,10 +6,25 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**114**</span>
+- 当前数量为：<span style="color: red;">**119**</span>
 :::
+## 🕑 2019.09.27 <Badge text="+4"/>
+### [testerSunshine/12306](https://github.com/testerSunshine/12306)
+> 12306智能刷票，订票
 
-## 🕜 2019.09.26 <Badge text="+8"/>
+### [godotengine/godot](https://github.com/godotengine/godot)
+> Godot Engine – Multi-platform 2D and 3D game engine 
+
+### [sdras/array-explorer](https://github.com/sdras/array-explorer)
+>  A resource to help figure out what JavaScript array method would be best to use at any given time
+
+### [skullface/skullface.github.io](https://github.com/skullface/skullface.github.io)
+>  my personal site! 
+
+## 🕜 2019.09.26 <Badge text="+9"/>
+### [jirengu-inc/animating-resume](https://github.com/jirengu-inc/animating-resume)
+> 一个会动的简历
+
 ### [jamiebuilds/babel-handbook](https://github.com/jamiebuilds/babel-handbook)
 > Babel 手册
 
