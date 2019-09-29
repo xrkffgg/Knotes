@@ -6,8 +6,12 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**119**</span>
+- 当前数量为：<span style="color: red;">**120**</span>
 :::
+## 🕝 2019.09.29 <Badge text="+1"/>
+### [yifeikong/reverse-interview-zh](https://github.com/yifeikong/reverse-interview-zh)
+> 技术面试最后反问面试官的话
+
 ## 🕑 2019.09.27 <Badge text="+4"/>
 ### [testerSunshine/12306](https://github.com/testerSunshine/12306)
 > 12306智能刷票，订票
