@@ -6,8 +6,19 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**120**</span>
+- 当前数量为：<span style="color: red;">**123**</span>
 :::
+
+## 🕒 2019.09.30 <Badge text="+3"/>
+### [redtreeai/super-flying-chess](https://github.com/redtreeai/super-flying-chess)
+> 飞行棋之大乱斗 The Great Fighting of Flying Chess
+
+### [iptv-org/iptv](https://github.com/iptv-org/iptv)
+> Collection of 8000+ publicly available IPTV channels from all over the world
+
+### [oframe/ogl](https://github.com/oframe/ogl)
+> Minimal WebGL framework
+
 ## 🕝 2019.09.29 <Badge text="+1"/>
 ### [yifeikong/reverse-interview-zh](https://github.com/yifeikong/reverse-interview-zh)
 > 技术面试最后反问面试官的话
