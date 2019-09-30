@@ -32,8 +32,8 @@ yarn add
 yarn upgrade
 
 yarn remove
-
 ```
+
 ## 重置 hosts
 
 ```
@@ -45,20 +45,20 @@ WebP 的优势体现在它具有更优的图像数据压缩算法，能带来更
 
 对于不同场景下 WebP 的使用，总结了一些解决方案，如下：
 
-1. 若使用场景是浏览器，可以：
+- 若使用场景是浏览器，可以：
 
-JavaScript 能力检测，对支持 WebP 的用户输出 WebP 图片
+  - JavaScript 能力检测，对支持 WebP 的用户输出 WebP 图片
 
-使用 WebP 支持插件：WebPJS：http://webpjs.appspot.com
+  - 使用 WebP 支持插件：WebPJS：http://webpjs.appspot.com
 
-2. 若使用场景是 App，可以：
+- 若使用场景是 App，可以：
 
-Android 4.0 以下 WebP 解析库（https://github.com）
+  - Android 4.0 以下 WebP 解析库（https://github.com）
 
-iOS WebP 解析库（https://github.com）
+  - iOS WebP 解析库（https://github.com）
 
-3. 转换工具：
+- 转换工具：
 
-智图（http://zhitu.tencent.com）
+  - 智图（http://zhitu.tencent.com）
 
-iSparta（http://isparta.ghub）
+  - iSparta（http://isparta.ghub）

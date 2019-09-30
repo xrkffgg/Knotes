@@ -108,7 +108,7 @@ sidebarDepth: 1
 ### [30-seconds/30-seconds-of-css](https://github.com/30-seconds/30-seconds-of-css)
 > A curated collection of useful CSS snippets you can understand in 30 seconds or less.
 
-## 🕛 2019.09.23 <Badge text="92"/> <Badge text="before"/>
+## 🕛 2019.09.23 <Badge text="92"/> <Badge text="Initialization"/>
 ### [max2max/freess](https://github.com/max2max/freess)
 > 免费ss账号 免费shadowsocks账号 免费v2ray账号
 
