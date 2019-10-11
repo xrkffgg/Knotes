@@ -6,8 +6,29 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**123**</span>
+- 当前数量为：<span style="color: red;">**130**</span>
 :::
+## 🕞 2019.10.11 <Badge text="+7"/>
+### [Kivy-CN/Stanford-CS-229-CN](https://github.com/Kivy-CN/Stanford-CS-229-CN)
+> 斯坦福机器学习CS229课程讲义的中文翻译
+
+### [weijhfly/Night-Mode](https://github.com/weijhfly/Night-Mode)
+> 夜间助手，可设置网页背景色的浏览器扩展
+
+### [KieSun/vue-interpretation](https://github.com/KieSun/vue-interpretation)
+> Vue 3 源码解读
+
+### [FrancisQiang/flutter-bill](https://github.com/FrancisQiang/flutter-bill)
+> 使用Flutter制作的一个账单app 非常流畅
+
+### [mCyp/Orient-Ui](https://github.com/mCyp/Orient-Ui)
+> Orient-Ui is a Android Ui Library~
+
+### [HuberTRoy/vue-shiyanlou](https://github.com/HuberTRoy/vue-shiyanlou)
+> 基于vue2和vuex的复杂单页面应用，20+页面53个API（仿实验楼）
+
+### [vuejs/vue-next](https://github.com/vuejs/vue-next)
+> vue 3
 
 ## 🕒 2019.09.30 <Badge text="+3"/>
 ### [redtreeai/super-flying-chess](https://github.com/redtreeai/super-flying-chess)
