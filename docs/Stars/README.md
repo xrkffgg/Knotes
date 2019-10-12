@@ -6,8 +6,19 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**130**</span>
+- 当前数量为：<span style="color: red;">**133**</span>
 :::
+
+## 🕓 2019.10.12 <Badge text="+3"/>
+### [jtyoui/Jtyoui](https://github.com/jtyoui/Jtyoui)
+> 学习Python的集合包.
+
+### [a-jie/clock-shop](https://github.com/a-jie/clock-shop)
+> Clock Shop is a website that collects beautiful clock codes
+
+### [SacredDuckwhale/Rarity](https://github.com/SacredDuckwhale/Rarity)
+> Collectibles and statistics tracking addon for World of Warcraft: Battle for Azeroth
+
 ## 🕞 2019.10.11 <Badge text="+7"/>
 ### [Kivy-CN/Stanford-CS-229-CN](https://github.com/Kivy-CN/Stanford-CS-229-CN)
 > 斯坦福机器学习CS229课程讲义的中文翻译
