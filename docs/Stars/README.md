@@ -6,8 +6,23 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**133**</span>
+- 当前数量为：<span style="color: red;">**138**</span>
 :::
+## 🕟 2019.10.18 <Badge text="+5"/>
+### [komeiji-satori/Dress](https://github.com/komeiji-satori/Dress)
+> 好耶 是女装
+
+### [Dafrok/vue-baidu-map](https://github.com/Dafrok/vue-baidu-map)
+> Baidu Map components for Vue 2.x
+
+### [redtreeai/2B-Assasin](https://github.com/redtreeai/2B-Assasin)
+> 同人恶搞RPG，基于暴雪游戏背景(魔兽、暗黑等)
+
+### [KaiOrange/touchbar-emoji](https://github.com/KaiOrange/touchbar-emoji)
+> 使用touchbar来控制飘落emoji表情雨。
+
+### [flutterkit/c2f](https://github.com/flutterkit/c2f)
+> C2F can convert css style to flutter style.
 
 ## 🕓 2019.10.12 <Badge text="+3"/>
 ### [jtyoui/Jtyoui](https://github.com/jtyoui/Jtyoui)
