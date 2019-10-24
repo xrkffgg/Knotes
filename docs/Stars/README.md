@@ -6,8 +6,13 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**138**</span>
+- 当前数量为：<span style="color: red;">**139**</span>
 :::
+
+## 🕞 2019.10.24 <Badge text="+1"/>
+### [sindresorhus/screenfull.js](https://github.com/sindresorhus/screenfull.js)
+> Simple wrapper for cross-browser usage of the JavaScript Fullscreen API
+
 ## 🕟 2019.10.18 <Badge text="+5"/>
 ### [komeiji-satori/Dress](https://github.com/komeiji-satori/Dress)
 > 好耶 是女装
