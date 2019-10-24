@@ -23,6 +23,23 @@ git reset --hard origin/master // 远程分支名称
 git fetch
 ```
 
+### 更新fork工程
+```
+1. 添加源分支
+git remote add xxx git@github.com:author/repos.git
+
+git remote -v 查看
+
+2. fetch 源仓库代码的最新版本到本地
+git fetch xxx
+
+3. 合并两个版本的代码
+git merge xxx/master
+
+4. 更新到GitHub的fork上
+git push origin master
+```
+
 ## Yarn 命令
 ```
 yarn 

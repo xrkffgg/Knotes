@@ -6,12 +6,15 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**139**</span>
+- 当前数量为：<span style="color: red;">**140**</span>
 :::
 
-## 🕞 2019.10.24 <Badge text="+1"/>
+## 🕞 2019.10.24 <Badge text="+2"/>
 ### [sindresorhus/screenfull.js](https://github.com/sindresorhus/screenfull.js)
 > Simple wrapper for cross-browser usage of the JavaScript Fullscreen API
+
+### [kon9chunkit/GitHub-Chinese-Top-Charts](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)
+> GitHub中文排行榜，帮助你发现高分优秀中文项目、更高效地吸收国人的优秀经验成果；榜单每周更新一次，敬请关注！
 
 ## 🕟 2019.10.18 <Badge text="+5"/>
 ### [komeiji-satori/Dress](https://github.com/komeiji-satori/Dress)
