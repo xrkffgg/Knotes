@@ -6,10 +6,13 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**140**</span>
+- 当前数量为：<span style="color: red;">**141**</span>
 :::
+## 🕠 2019.10.31 <Badge text="+1"/>
+### [KunMinX/Linkage-RecyclerView](https://github.com/KunMinX/Linkage-RecyclerView)
+> 二级联动订餐列表 
 
-## 🕞 2019.10.24 <Badge text="+2"/>
+## 🕔 2019.10.24 <Badge text="+2"/>
 ### [sindresorhus/screenfull.js](https://github.com/sindresorhus/screenfull.js)
 > Simple wrapper for cross-browser usage of the JavaScript Fullscreen API
 
