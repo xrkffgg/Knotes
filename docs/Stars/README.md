@@ -6,8 +6,12 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**141**</span>
+- 当前数量为：<span style="color: red;">**142**</span>
 :::
+## 🕖 2019.11.06 <Badge text="+1"/>
+### [xaoxuu/hexo-theme-material-x](https://github.com/xaoxuu/hexo-theme-material-x)
+> 一个简约的卡片式Hexo博客主题
+
 ## 🕠 2019.10.31 <Badge text="+1"/>
 ### [KunMinX/Linkage-RecyclerView](https://github.com/KunMinX/Linkage-RecyclerView)
 > 二级联动订餐列表 
