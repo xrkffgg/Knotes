@@ -42,7 +42,8 @@ let a = list.filter(o => o.dictValue != '00')
 :::tip
 ```
 // List 数组 num 对象
-var max = list.sort(function(a, b){return a.num < b.num})[0].num
+var max = List.sort(function(a, b){return a.num < b.num})[0].num
+var max = Math.max.apply(Math, List.map(function(o) {return o.num}))
 ```
 :::
 
