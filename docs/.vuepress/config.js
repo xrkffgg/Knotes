@@ -29,6 +29,7 @@ module.exports = ctx => ({
           { text: '摘 记', link: '/notes/' },
           { text: '随 笔', link: '/Essay/' },
           { text: 'Stars', link: '/Stars/' },
+          { text: '规 范', link: '/standard/' },
         ]
       },
       {
@@ -53,6 +54,7 @@ module.exports = ctx => ({
       '/learn/': [''],
       '/tool/': [''],
       '/Stars/': [''],
+      '/standard/': [''],
       '/Essay/': [''],
       '/note/': [''],
       '/book/': getBookSidebar(),

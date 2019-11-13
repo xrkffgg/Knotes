@@ -153,3 +153,14 @@ This is a warning
 ::: danger Danger
 This is a dangerous warning
 :::
+
+## 🎯 Element-UI
+### 🎲 删除上传文件
+::: tip TIP
+```
+let fs = document.getElementsByName("file")
+if(fs.length > 0){
+  fs[0].value = null
+}
+```
+:::

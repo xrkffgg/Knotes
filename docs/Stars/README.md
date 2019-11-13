@@ -6,8 +6,24 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**142**</span>
+- 当前数量为：<span style="color: red;">**147**</span>
 :::
+## 🕢 2019.11.13 <Badge text="+5"/>
+### [youngdro/ConsoleCanvas](https://github.com/youngdro/ConsoleCanvas)
+> 用console.log当画笔，用调试台当画板。
+
+### [antvis/f2](https://github.com/antvis/f2)
+> An elegant, interactive and flexible charting library for mobile. 
+
+### [huangwei9527/quark-h5](https://github.com/huangwei9527/quark-h5)
+> 基于vue2 + koa2的 H5制作工具。让不会写代码的人也能轻松快速上手制作H5页面。
+
+### [Geek-James/ddBuy](https://github.com/Geek-James/ddBuy)
+> Vue2.x 全家桶+Vant 搭建大型单页面电商项目
+
+### [FranckFreiburger/vue-pdf](https://github.com/FranckFreiburger/vue-pdf)
+> vue.js pdf viewer
+
 ## 🕖 2019.11.06 <Badge text="+1"/>
 ### [xaoxuu/hexo-theme-material-x](https://github.com/xaoxuu/hexo-theme-material-x)
 > 一个简约的卡片式Hexo博客主题
