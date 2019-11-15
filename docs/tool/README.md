@@ -38,8 +38,11 @@ sidebarDepth: 2
 #### 7 水纹点击效果
 > [https://www.zhangxinxu.com/wordpress/2017/12/understand-svg-fedisplacementmap-filter/](https://www.zhangxinxu.com/wordpress/2017/12/understand-svg-fedisplacementmap-filter/)
 
-#### Vue 文字 图片滚动条
+#### 8 Vue 文字 图片滚动条
 > [vue-infinite-slide-bar](https://github.com/biigpongsatorn/vue-infinite-slide-bar)
+
+#### 9 图片瀑布效果
+> [desandro/masonry](https://github.com/desandro/masonry)
 
 ### 2.2 图 标
 #### 1 remixicon
