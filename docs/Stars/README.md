@@ -6,8 +6,36 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**148**</span>
+- 当前数量为：<span style="color: red;">**162**</span>
 :::
+## 🕣 2019.11.18 <Badge text="+13"/>
+### [airbnb/lottie-web](https://github.com/airbnb/lottie-web)
+> Render After Effects animations natively on Web, Android and iOS, and React Native.
+### [any86/be-full](https://github.com/any86/be-full)
+>  任意元素全屏显示, 不到1kb.
+### [laurent22/joplin](https://github.com/laurent22/joplin)
+> Joplin - a note taking and to-do application
+### [linwalker/render-html-to-pdf](https://github.com/linwalker/render-html-to-pdf)
+> render the webpages to pdf and downlowd
+### [airxiechao/oarword](https://github.com/airxiechao/oarword)
+> A Javascript Based Doc/Docx Editor . No longer maintain.
+### [vortesnail/text-cursor-prompt](https://github.com/vortesnail/text-cursor-prompt)
+> 📝 根据文本框当前光标弹出提示框
+### [maebert/themostdangerouswritingapp](https://github.com/maebert/themostdangerouswritingapp)
+> If you stop typing for more than five seconds, all progress will be lost.
+### [WarpPrism/AutoPiano](https://github.com/WarpPrism/AutoPiano)
+> 自由钢琴 🎹 AutoPiano
+### [bestony/logoly](https://github.com/bestony/logoly)
+> A Pornhub Flavour Logo Generator
+### [kelseyhightower/nocode](https://github.com/kelseyhightower/nocode)
+> The best way to write secure and reliable applications. Write nothing; deploy nowhere.
+### [YGYOOO/WeChat-Shelter](https://github.com/YGYOOO/WeChat-Shelter)
+> chrome插件，可把网页微信伪装成云笔记，让你神不知鬼不觉地上微信~（仅供娱乐！）
+### [greenaway07/GirlDress](https://github.com/greenaway07/GirlDress)
+> 男装
+### [wb14123/seq2seq-couplet](https://github.com/wb14123/seq2seq-couplet)
+> Play couplet with seq2seq model. 用深度学习对对联。
+
 ## 🕗 2019.11.15 <Badge text="+1"/>
 ### [desandro/masonry](https://github.com/desandro/masonry)
 > Cascading grid layout plugin
