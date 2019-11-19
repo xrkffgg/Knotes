@@ -6,8 +6,24 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**162**</span>
+- 当前数量为：<span style="color: red;">**169**</span>
 :::
+## 🕘 2019.11.18 <Badge text="+7"/>
+### [alibaba/form-render](https://github.com/alibaba/form-render)
+> 通过 JSON Schema 快速生成自定义表单配置界面
+### [ruanyf/document-style-guide](https://github.com/ruanyf/document-style-guide)
+> 中文技术文档的写作规范
+### [reactjs/reactjs.org](https://github.com/reactjs/reactjs.org)
+> The React documentation website
+### [facebook/react](https://github.com/facebook/react)
+> A declarative, efficient, and flexible JavaScript library for building user interfaces. 
+### [storybookjs/storybook](https://github.com/storybookjs/storybook)
+> UI component dev & test: React, Vue, Angular, React Native, Ember, Web Components & more!
+### [dongyuanxin/blog](https://github.com/dongyuanxin/blog)
+> 专注前端 
+### [dongyuanxin/pure-virtual-dom](https://github.com/dongyuanxin/pure-virtual-dom)
+> VDom+Diff+Patch的简明实现
+
 ## 🕣 2019.11.18 <Badge text="+13"/>
 ### [airbnb/lottie-web](https://github.com/airbnb/lottie-web)
 > Render After Effects animations natively on Web, Android and iOS, and React Native.
