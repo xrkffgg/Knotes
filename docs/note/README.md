@@ -79,3 +79,9 @@ WebP 的优势体现在它具有更优的图像数据压缩算法，能带来更
   - 智图（http://zhitu.tencent.com）
 
   - iSparta（http://isparta.ghub）
+
+## ReasonML——新的前端强类型语言简介
+ReasonML 是从 OCaml 语言衍生出来的，可以支持 JavaScript 的新的强类型语言。
+- 无争论的类型系统（Types without hassle），有效、安全的类型推论意味着你很少需要进行类型注释，但是它可以帮你检查所有内容的类型。
+- 简单的 JavaScript 交互（Easy JavaScript interop），可以没有任何麻烦的使用 NPM/Yarn 中的包，或者在你学习的时候，你甚至可以使用一小段 JavaScript。
+- 灵活有趣（Flexible & Fun），适用于网站、动画、游戏、服务、脚手架工具等。通过这些例子我们就可以得到灵感。
