@@ -41,13 +41,14 @@ module.exports = ctx => ({
         ]
       },
       {
-        text: '书 籍',
+        text: '阅 读',
         link: '/book/list',
       },
       { text: '提BUG', link: 'https://github.com/xrkffgg/xrkffgg.github.io/issues' },
       { text: 'GitHub', link: 'https://github.com/xrkffgg/Knotes' },
     ],
     lastUpdated: '上次更新',
+    smoothScroll: true,
     sidebar: {
       '/blog/': getBlogSidebar(),
       '/notes/': [''],
@@ -80,11 +81,13 @@ function getBlogSidebar() {
 function getBookSidebar(){
   return [
     {
-      title: '📚 书 籍',
+      title: '📚 阅 读',
       collapsable: false,
       children: [
         '/book/list',
         '/book/unKnowJs',
+        '/book/reactWeb',
+        '/book/jsWeb',
       ]
     }
   ]

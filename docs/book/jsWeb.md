@@ -1,3 +1,7 @@
+---
+sidebarDepth: 2
+---
+
 # 🍭 JS 学习
 > [MDN web docs](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes)
 ## 1 定义类
@@ -72,7 +76,7 @@ function notStrict() {
 7. 禁止设置 `primitive` 值的属性。
 :::
 
-:::tip
+:::warning
 - 使用
 1. 严格模式禁用 `with`。
 > `with` 通常被当作重复引用同一个对象中的多个属性的快捷方式，可以不需要重复引用对象本身。
@@ -88,3 +92,95 @@ function notStrict() {
 2. 在严格模式中再也不能通过广泛实现的ECMAScript扩展“游走于”JavaScript的栈中。
 3. 严格模式下的arguments不会再提供访问与调用这个函数相关的变量的途径。
 :::
+
+#### 构造函数
+`constructor` 方法用于创建和初始化一个由 `class` 创建的对象，一个类只能拥有一个名为 `constructor` 的特殊方法。
+
+一个构造函数可以使用 `super` 来调用一个父类的构造函数。
+
+:::tip
+```
+- 使用 `constructor` 方法
+class Square extends Polygon {
+  constructor(length) {
+    // 在这里, 它调用了父类的构造函数, 并将 lengths 提供给 Polygon 的"width"和"height"
+    super(length, length);
+    // 注意: 在派生类中, 必须先调用 super() 才能使用 "this"。
+    // 忽略这个，将会导致一个引用错误。
+    this.name = 'Square';
+  }
+  get area() {
+    return this.height * this.width;
+  }
+  set area(value) {
+    // 注意：不可使用 this.area = value
+    // 否则会导致循环call setter方法导致爆栈
+    this._area = value;
+  }
+}
+```
+:::
+
+:::tip
+- 对于基类，默认构造函数
+```
+constructor() {}
+```
+
+- 对于派生类，默认构造函数
+```
+constructor(...args) {
+  super(...args);
+}
+```
+:::
+
+#### 原型方法
+```
+class Rectangle {
+    // constructor
+    constructor(height, width) {
+        this.height = height;
+        this.width = width;
+    }
+    // Getter
+    get area() {
+        return this.calcArea()
+    }
+    // Method
+    calcArea() {
+        return this.height * this.width;
+    }
+}
+const square = new Rectangle(10, 10);
+
+console.log(square.area);
+// 100
+```
+
+#### 静态方法
+`static` 关键字用来定义一个类的一个静态方法。调用静态方法不需要实例化该类，但不能通过一个类实例调用静态方法。静态方法通常用于为一个应用程序创建工具函数。
+
+```
+class Point {
+  constructor(x, y) {
+    this.x = x;
+    this.y = y;
+  }
+
+  static distance(a, b) {
+    const dx = a.x - b.x;
+    const dy = a.y - b.y;
+
+    return Math.hypot(dx, dy);
+  }
+}
+
+const p1 = new Point(5, 5);
+const p2 = new Point(10, 10);
+
+console.log(Point.distance(p1, p2));
+```
+
+
+## 2 函数
