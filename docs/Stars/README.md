@@ -6,8 +6,16 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**169**</span>
+- 当前数量为：<span style="color: red;">**172**</span>
 :::
+## 🕤 2019.11.25 <Badge text="+3"/>
+### [jinglecjy/leetcode-js](https://github.com/jinglecjy/leetcode-js)
+> js刷leetcode
+### [sixiaodong123/react-loading](https://github.com/sixiaodong123/react-loading)
+> Build a smooth and lightweight react component loading with css
+### [theprimone/ant-design-pro-v2-plus](https://github.com/theprimone/ant-design-pro-v2-plus)
+> 基于 ant-design-pro v2 做一些微小的工作
+
 ## 🕘 2019.11.18 <Badge text="+7"/>
 ### [alibaba/form-render](https://github.com/alibaba/form-render)
 > 通过 JSON Schema 快速生成自定义表单配置界面
