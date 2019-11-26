@@ -40,10 +40,9 @@ let Rectangle = class Rectangle {
 ### 1.2 类体和方法定义
 #### 严格模式
 类声明和类表达式的主体都执行在严格模式下。
-:::tip
-- 开启
 
 ```
+<!-- 开启 -->
 // 整个脚本都开启严格模式的语法
 "use strict";
 var v = "Hi!  I'm a strict mode script!";
@@ -63,7 +62,6 @@ function notStrict() {
   return "I'm not strict."; 
  }
 ```
-:::
 
 :::tip
 - 变化
@@ -98,7 +96,6 @@ function notStrict() {
 
 一个构造函数可以使用 `super` 来调用一个父类的构造函数。
 
-:::tip
 ```
 - 使用 `constructor` 方法
 class Square extends Polygon {
@@ -119,7 +116,6 @@ class Square extends Polygon {
   }
 }
 ```
-:::
 
 :::tip
 - 对于基类，默认构造函数

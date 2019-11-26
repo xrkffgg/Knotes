@@ -6,8 +6,12 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**172**</span>
+- 当前数量为：<span style="color: red;">**173**</span>
 :::
+## 🕙 2019.11.26 <Badge text="+1"/>
+### [nusr/hacker-laws-zh](https://github.com/nusr/hacker-laws-zh)
+> 对开发人员有用的定律、理论、原则和模式
+
 ## 🕤 2019.11.25 <Badge text="+3"/>
 ### [jinglecjy/leetcode-js](https://github.com/jinglecjy/leetcode-js)
 > js刷leetcode
