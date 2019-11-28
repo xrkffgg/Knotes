@@ -19,3 +19,8 @@ sidebarDepth: 2
 ::: tip
 推荐入门阅读
 :::
+
+## Nest
+Nest是一套现代化的基于Node.js的强大的Web应用框架
+
+### [中文文档](https://exlley.gitbooks.io/nest-js/content/)
