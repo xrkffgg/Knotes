@@ -8,7 +8,6 @@ sidebarDepth: 2
 
 ## 🎯 Vue
 ### 🎲 Vue阻止右键默认行为
-::: tip
 ```
 <!--不阻止右键菜单(浏览器行为)，右键执行函数show-->
 <input type="button" value="按 钮" @contextmenu="show()"> 
@@ -19,39 +18,47 @@ sidebarDepth: 2
 <!--阻止右键菜单(浏览器行为)，右键执行函数show-->
 <input type="button" value="按 钮" @contextmenu.prevent="show()">
 ```
-:::
+
+### 🎲 vue组件销毁时去除定时器
+```
+mounted(){
+  const timer = setInterval(() =>{
+    console.log("lalala")
+  }, 500)
+
+  this.$once('hook:beforeDestroy', () => clearInterval(timer))
+}
+```
 
 ## 🎯 JS
 ### 🎲 数组相关
 #### 1. 判断元素是否在数组中
-:::tip
 ```
 [0, 1, 2].includes(0)   // true
 ```
-:::
 
 #### 2. 过滤数组中元素
-:::tip
 ```
 // 过滤掉数组中对象 dictValue 为 00 的
 let a = list.filter(o => o.dictValue != '00')
 ```
-:::
 
 #### 3. 寻找数组中对象某个属性中最大值
-:::tip
 ```
 // List 数组 num 对象
 var max = List.sort(function(a, b){return a.num < b.num})[0].num
 var max = Math.max.apply(Math, List.map(function(o) {return o.num}))
 ```
-:::
+
+#### 4. 寻找数组中最大值
+```
+let max = Math.max(...arr)
+```
 
 ### 🎲 `in` 用法
 > 集合遍历的效率为：hash > for(;;) > for(in)
 
 #### 1. 判断属性属于对象
-:::tip
 ```
 var map = {
   a: 1,
@@ -64,19 +71,15 @@ if('a' in map){
   return false
 }
 ```
-:::
 
 #### 2. for in 遍历对象属性
-:::tip
 ```
 for(var p in map){
   console.log(p + ':' + map[p])
 }
 ```
-:::
 
 #### 3. in 可以用来判断
-:::tip
 ```
 if(k == 'a' || k == 'b' || k == 'c') {}
 // 可以写成
@@ -84,7 +87,6 @@ if(k == 'a' || k == 'b' || k == 'c') {}
 if( k in {'a':'', 'b':'', 'c':''})
 
 ```
-:::
 
 ### 🎲 `length` 判断
 ```
@@ -100,23 +102,18 @@ if(a.length > 0){
 > 不仅是 0 ，也适用于 其他 ''、null、undefined
 
 ### 🎲 JSON 转化
-::: tip
 ```
 JSON.stringify()  // 转字符串
 JSON.parse()      // 转JSON
 ```
-:::
 
 ### 🎲 获取当前URL Ip/Host
-::: tip
 ```
 <!-- 获取当前URL ip -->
 console.log(window.location.host)
 ```
-:::
 
 ### 🎲 关闭当前页签
-::: tip
 ```
 if (navigator.userAgent.indexOf("Firefox") != -1 || navigator.userAgent.indexOf("Chrome") != -1) {  
   window.location.href="about:blank";  
@@ -127,7 +124,24 @@ if (navigator.userAgent.indexOf("Firefox") != -1 || navigator.userAgent.indexOf(
   window.close();  
 }  
 ```
-:::
+
+### 🎲 取余
+```
+// 丢弃小数部分,保留整数部分
+parseInt(7/2)　　// 3
+
+// 向上取整,有小数就整数部分加1
+Math.ceil(7/2)　　// 4
+
+// 向下取整,丢弃小数部分
+Math.floor(7/2)　　// 3
+
+// 四舍五入
+Math.round(7/2)　　// 3
+
+// 1. 取余
+7%2　　// 1
+```
 
 ## 🎯 HTML
 ### 🎲 空 格
@@ -156,11 +170,9 @@ This is a dangerous warning
 
 ## 🎯 Element-UI
 ### 🎲 删除上传文件
-::: tip TIP
 ```
 let fs = document.getElementsByName("file")
 if(fs.length > 0){
   fs[0].value = null
 }
 ```
-:::
