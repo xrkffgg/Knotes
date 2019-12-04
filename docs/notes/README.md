@@ -55,6 +55,19 @@ var max = Math.max.apply(Math, List.map(function(o) {return o.num}))
 let max = Math.max(...arr)
 ```
 
+### 🎲 字符串相关
+#### 1. 去空格
+```
+str.trim()                    //去除字符串开头和结尾的所有空格
+str.trimLeft()                //去除开头所有空格
+str.trimRight()               //去除结尾所有空格
+
+str.replace(/\s*/g,'')        //全局匹配字符串所有空格，替换成''
+str.replace(/^\s*|\s*$/g,'')  //匹配开头和结尾的所有空格，替换成''
+str.replace(/^\s*/,'')        //匹配开头的所有空格，替换成''
+str.replace(/\s*$/,'')        //匹配结尾的所有空格，替换成''
+```
+
 ### 🎲 `in` 用法
 > 集合遍历的效率为：hash > for(;;) > for(in)
 
@@ -152,7 +165,7 @@ Math.round(7/2)　　// 3
 ## 🎯 Tool
 ### 🎲 VSCode
 ::: tip
-- 吹爆 `VSCode` + `cascadia-code` + `Atom One Dark` 
+- 吹爆 `VSCode` + `cascadia-code` + `Atom One Dark` + `Material Icon Theme`
 :::
 
 ### 🎲 Vuepress 自定义容器

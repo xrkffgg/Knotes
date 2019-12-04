@@ -6,8 +6,11 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**174**</span>
+- 当前数量为：<span style="color: red;">**175**</span>
 :::
+## 🕚 2019.12.04 <Badge text="+1"/>
+### [Alvin9999/new-pac](https://github.com/Alvin9999/new-pac)
+
 ## 🕥 2019.11.28 <Badge text="+1"/>
 ### [antvis/g2](https://github.com/antvis/g2)
 > The Grammar of Graphics in JavaScript 
