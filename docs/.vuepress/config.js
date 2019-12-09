@@ -26,18 +26,18 @@ module.exports = ctx => ({
         text: '记 录', 
         items: [
           { text: '文 章', link: '/blog/' },
-          { text: '摘 记', link: '/notes/' },
-          { text: '随 笔', link: '/Essay/' },
-          { text: 'Stars', link: '/Stars/' },
+          { text: '参 考', link: '/notes/' },
           { text: '规 范', link: '/standard/' },
+          { text: 'Stars', link: '/Stars/' },
         ]
       },
       {
         text: '学 习',
         items: [
-          { text: '笔 记', link: '/note/' },
           { text: '资 料', link: '/learn/' },
           { text: '工 具', link: '/tool/' },
+          { text: '知 识', link: '/note/' },
+          { text: '随 想', link: '/Essay/' },
         ]
       },
       {

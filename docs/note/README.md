@@ -1,7 +1,7 @@
 ---
 sidebarDepth: 1
 ---
-# 📝 笔 记
+# 📝 知 识
 ::: tip
 - 记录学习到的 知识、工具
 :::
@@ -21,6 +21,12 @@ git fetch --all
 git reset --hard origin/master // 远程分支名称
 
 git fetch
+```
+
+### clone 指定分支
+```
+<!-- clone v1.0 分支  -->
+git clone -b v1.0 http://xxx.git
 ```
 
 ### 更新fork工程
@@ -44,7 +50,7 @@ git push origin master
 ```
 yarn 
 
-yarn add
+yarn (global) add
 
 yarn upgrade
 

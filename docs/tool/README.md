@@ -59,4 +59,4 @@ sidebarDepth: 2
 ### 3.1 工具类
 #### astralapp
 查看 GitHub Stars 项目，自带标签，可自定义标签。
-> https://app.astralapp.com/dashboard
+> [https://app.astralapp.com/dashboard](https://app.astralapp.com/dashboard)
