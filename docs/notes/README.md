@@ -7,7 +7,7 @@ sidebarDepth: 2
 :::
 
 ## 🎯 Vue
-### 🎲 Vue阻止右键默认行为
+### 🎲 `vue` 阻止右键默认行为
 ```
 <!--不阻止右键菜单(浏览器行为)，右键执行函数show-->
 <input type="button" value="按 钮" @contextmenu="show()"> 
@@ -19,7 +19,7 @@ sidebarDepth: 2
 <input type="button" value="按 钮" @contextmenu.prevent="show()">
 ```
 
-### 🎲 vue组件销毁时去除定时器
+### 🎲 `vue` 组件销毁时去除定时器
 ```
 mounted(){
   const timer = setInterval(() =>{
@@ -28,6 +28,78 @@ mounted(){
 
   this.$once('hook:beforeDestroy', () => clearInterval(timer))
 }
+```
+
+### 🎲 `vue` 的 `<script>`
+```
+mixins: [],
+
+components: {},
+
+props: {},
+
+data: {
+  temp: '测试',
+},
+
+beforeCreate(){
+
+},
+
+created(){
+
+},
+
+activated(){
+
+},
+
+mounted(){
+
+},
+
+watch: {
+  temp(newValue, oldValue){
+
+  }
+},
+
+computed: {
+  temp1(){
+    return this.temp + '000';
+  }
+},
+
+beforeDestroy(){
+
+},
+
+destroyed(){
+
+},
+
+methods: {
+  doSome(){
+
+  },
+},
+```
+### 🎲 `provide` 与 `inject`
+
+这对选项需要一起使用，以允许一个祖先组件向其所有子孙后代注入一个依赖，不论组件层次有多深，并在起上下游关系成立的时间里始终生效。
+
+```
+// 父组件
+provide(){
+  return {
+    doSome(){
+
+    }
+  }
+},
+
+// 子组件中可以调用 `doSome` 方法
+inject: ['doSome'],
 ```
 
 ## 🎯 JS
@@ -159,7 +231,8 @@ Math.round(7/2)　　// 3
 ## 🎯 HTML
 ### 🎲 空 格
 ```
-&nbsp;
+&nbsp;  // html
+\xa0    // js
 ```
 
 ## 🎯 Tool
