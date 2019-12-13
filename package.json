@@ -3,8 +3,16 @@
     "start": "vuepress dev docs",
     "build": "vuepress build docs"
   },
-  "dependencies": {},
+  "dependencies": {
+    "global": "^4.4.0",
+    "highlight.js": "^9.17.1",
+    "k-progress": "^1.0.2",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "vue-highlight.js": "^3.1.0"
+  },
   "devDependencies": {
+    "less": "^3.10.3",
     "vuepress": "^1.0.3"
   }
 }

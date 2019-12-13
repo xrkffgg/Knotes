@@ -41,6 +41,10 @@ module.exports = ctx => ({
         ]
       },
       {
+        text: '教 程',
+        link: '/course/list',
+      },
+      {
         text: '阅 读',
         link: '/book/list',
       },
@@ -58,6 +62,7 @@ module.exports = ctx => ({
       '/standard/': [''],
       '/Essay/': [''],
       '/note/': [''],
+      '/course/': getCourseSidebar(),
       '/book/': getBookSidebar(),
     }
   }
@@ -74,6 +79,19 @@ function getBlogSidebar() {
       title: '📄 文 章',
       collapsable: false,
       children: ['',...arr]
+    }
+  ]
+}
+
+function getCourseSidebar(){
+  return [
+    {
+      title: '📦 教 程',
+      collapsable: false,
+      children: [
+        '/course/list',
+        '/course/k-progress',
+      ]
     }
   ]
 }
