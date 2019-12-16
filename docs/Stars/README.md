@@ -6,8 +6,18 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**179**</span>
+- 当前数量为：<span style="color: red;">**182**</span>
 :::
+## 🕧 2019.12.16 <Badge text="+3"/>
+### [KieSun/FE-advance-road](https://github.com/KieSun/FE-advance-road)
+> 前端开发者进阶之路
+
+### [xrkffgg/k-progress](https://github.com/xrkffgg/k-progress)
+> 一个 Vue 插件，线性进度条。A Vue plugin, linear progress bar.
+
+### [sl1673495/vue-netease-music](https://github.com/sl1673495/vue-netease-music)
+> 基于Vue2、Vue-CLI3的高仿网易云mac客户端播放器（PC） Online Music Player
+
 ## 🕛 2019.12.11 <Badge text="+1"/>
 ### [le5le-com/topology](https://github.com/le5le-com/topology)
 > A diagram (topology, UML) framework uses canvas and typescript. 一个轻量（100k左右）、功能丰富的绘图工具（微服务架构图、拓扑图、流程图、类图等ULM图、脑图，动画、视频支持）。

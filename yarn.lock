@@ -4137,7 +4137,7 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
-k-progress@^1.0.1:
+k-progress@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/k-progress/-/k-progress-1.0.2.tgz#017c208af496f7859e8336c0620156bf730c93c2"
   integrity sha512-GaKLGEn9xKiCcgcMx8zoFI1/ljcXIrlSE0Tb6HAe3y7qN0cRbAcCwYGO+Drh7v6BJGvTgcMrWTNnxGRAVutJ0A==
