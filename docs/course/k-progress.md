@@ -121,3 +121,5 @@ import 'k-progress/dist/k-progress.css';
 |    format    |    Function    |           |                                 | 自定义文字显示，参数为percent |
 |    active    |    Boolean     |  `false`  |                                 |         是否开启动效          |
 | active-color | String / Array |           |                                 |           动效颜色            |
+
+## [GitHub](https://github.com/xrkffgg/k-progress)
