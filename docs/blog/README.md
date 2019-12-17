@@ -7,7 +7,7 @@ JavaScript计算两个时间相隔了 多少年多少月多少日。时分秒这
 ## 2 实现原理
 ### 2.1 获取当前时间
 若需要和当前时间比较，这里提供当前时间的获取格式化方法。我这里是根据传入类型输出日期或者日期+时间，可以明显看出`type`为`day`时，输出日期。
-```
+```js
 getNowDate(type){
     let now = new Date()
     let year = now.getFullYear()
@@ -30,7 +30,7 @@ getNowDate(type){
 ### 2.2比较时间
 传入两个参数，格式如：2008-08-08
 
-```
+```js
 getDiffYmdBetweenDate(sDate1,sDate2){
     var fixDate = function(sDate){
         var aD = sDate.split('-');
@@ -131,7 +131,7 @@ getDiffYmdBetweenDate(sDate1,sDate2){
 
 其中`this.dataForm.hasdata`为页面的v-model。这样的处理的效果是观看直观。
 
-```
+```js
 let now = this.getNowDate('day')
 let diffDate = this.getDiffYmdBetweenDate(now,this.data)
 let hasdata = ''

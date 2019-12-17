@@ -18,7 +18,7 @@ sidebarDepth: 2
 类表达式：一个表达式是定义一个类的另一种方式
 :::
 
-```
+```js
 /* 匿名类 */ 
 let Rectangle = class {
   constructor(height, width) {
@@ -41,14 +41,14 @@ let Rectangle = class Rectangle {
 #### 严格模式
 类声明和类表达式的主体都执行在严格模式下。
 
-```
+```js
 <!-- 开启 -->
 // 整个脚本都开启严格模式的语法
 "use strict";
 var v = "Hi!  I'm a strict mode script!";
 ```
 
-```
+```js
 function strict() {
   // 函数级别严格模式语法
   'use strict';
@@ -96,8 +96,8 @@ function notStrict() {
 
 一个构造函数可以使用 `super` 来调用一个父类的构造函数。
 
-```
-- 使用 `constructor` 方法
+```js
+// 使用 `constructor` 方法
 class Square extends Polygon {
   constructor(length) {
     // 在这里, 它调用了父类的构造函数, 并将 lengths 提供给 Polygon 的"width"和"height"
@@ -119,12 +119,12 @@ class Square extends Polygon {
 
 :::tip
 - 对于基类，默认构造函数
-```
+```js
 constructor() {}
 ```
 
 - 对于派生类，默认构造函数
-```
+```js
 constructor(...args) {
   super(...args);
 }
@@ -132,7 +132,7 @@ constructor(...args) {
 :::
 
 #### 原型方法
-```
+```js
 class Rectangle {
     // constructor
     constructor(height, width) {
@@ -157,7 +157,7 @@ console.log(square.area);
 #### 静态方法
 `static` 关键字用来定义一个类的一个静态方法。调用静态方法不需要实例化该类，但不能通过一个类实例调用静态方法。静态方法通常用于为一个应用程序创建工具函数。
 
-```
+```js
 class Point {
   constructor(x, y) {
     this.x = x;

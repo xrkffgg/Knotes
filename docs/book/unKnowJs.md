@@ -15,7 +15,7 @@ sidebarDepth: 2
 #### 1.2.1 `eval`
 > `JavaScript` 中的 `eval(...)` 函数可以接受一个字符串为参数，并将其中的内容视为好像在书写时就存在于程序中这个位置的代码。
 
-```
+```js
 function foo(str, a){
   eval(str);  // 欺骗！
   console.log(a, b);
@@ -30,7 +30,9 @@ foo( 'var b = 3;', 1);  // 1,3
 
 :::tip
 在严格模式的程序中，`eval(...)` 在运行时有其自己的语法作用域，意味着其中的声明无碍法修改所在的作用域。
-```
+:::
+
+```js
 function foo(str){
   "use strict";
   eval(str);
@@ -39,7 +41,6 @@ function foo(str){
 
 foo('var a = 2');
 ```
-:::
 
 :::warning 不提倡使用
 - `setTimeout(...)` 和 `setInterval(...)` 的第一个参数可以是字符串，字符串的内容可以被解释为一段动态生成的函数代码。

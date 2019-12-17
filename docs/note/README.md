@@ -15,7 +15,7 @@ sidebarDepth: 1
 
 ## Git 命令
 ### 重置远端分支
-```
+```bash
 git fetch --all
 
 git reset --hard origin/master // 远程分支名称
@@ -24,13 +24,13 @@ git fetch
 ```
 
 ### clone 指定分支
-```
+```bash
 <!-- clone v1.0 分支  -->
 git clone -b v1.0 http://xxx.git
 ```
 
 ### 更新fork工程
-```
+```bash
 1. 添加源分支
 git remote add xxx git@github.com:author/repos.git
 
@@ -47,7 +47,7 @@ git push origin master
 ```
 
 ## Yarn 命令
-```
+```bash
 yarn 
 
 yarn (global) add
@@ -59,7 +59,7 @@ yarn remove
 
 ## 重置 hosts
 
-```
+```bash
 ipconfig /flushdns
 ```
 

@@ -13,12 +13,12 @@ sidebarDepth: 2
 ![](https://img.shields.io/github/license/xrkffgg/k-progress?color=red&style=flat-square)
 
 ## 安 装
-```
+```bash
 npm install -S k-progress
 ```
 
 ## 开始使用
-```
+```js
 // main.js
 import 'k-progress';
 import 'k-progress/dist/k-progress.css';

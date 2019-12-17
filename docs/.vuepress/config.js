@@ -41,12 +41,12 @@ module.exports = ctx => ({
         ]
       },
       {
-        text: '教 程',
-        link: '/course/list',
-      },
-      {
         text: '阅 读',
         link: '/book/list',
+      },
+      {
+        text: '教 程',
+        link: '/course/list',
       },
       { text: '提BUG', link: 'https://github.com/xrkffgg/xrkffgg.github.io/issues' },
       { text: 'GitHub', link: 'https://github.com/xrkffgg/Knotes' },
