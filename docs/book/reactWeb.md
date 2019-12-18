@@ -60,8 +60,8 @@ ReactDOM.render(
 4. 浏览器每秒都会调用一次 `tick()` 方法。 在这方法之中，`Clock` 组件会通过调用 `setState()` 来计划进行一次 UI 更新。得益于 `setState()` 的调用，`React` 能够知道 `state` 已经改变了，然后会重新调用 `render()` 方法来确定页面上该显示什么。这一次，`render()` 方法中的 `this.state.date` 就不一样了，如此以来就会渲染输出更新过的时间。`React` 也会相应的更新 `DOM`。
 5. 一旦 `Clock` 组件从 `DOM` 中被移除，`React` 就会调用 `componentWillUnmount()` 生命周期方法，这样计时器就停止了。
 ### 2.2 `setState()`
-### 不要直接修改 `State`，而应该使用 `setState()`
-### `State` 的更新可能是异步的
+### 2.3 不要直接修改 `State`，而应该使用 `setState()`
+### 2.4 `State` 的更新可能是异步的
 以下代码可能无法更新计数器
 ```js
 // Wrong
@@ -77,7 +77,7 @@ this.setState((state, props) => ({
   counter: state.counter + props.increment
 }));
 ```
-### `State` 的更新会被合并
+### 2.5 `State` 的更新会被合并
 当你调用 `setState()` 的时候，`React` 会把你提供的对象合并到当前的 `state`。
 ## 3 事件处理
 - `React` 事件的命名采用小驼峰式（`camelCase`），而不是纯小写。
