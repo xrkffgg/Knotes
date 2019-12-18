@@ -10,7 +10,7 @@ module.exports = ctx => ({
   description: '记 录',
   port: 8888,
   head: [
-    ['link', { rel: 'icon', href: `/ico.png`}],
+    ['link', { rel: 'icon', href: `/ico1.png`}],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
