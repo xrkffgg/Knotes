@@ -6,15 +6,15 @@ sidebarDepth: 1
 - 记录学习到的 知识、工具
 :::
 
-## 加 密
+## 🌟 加 密
 前端加密一般服务于两个目的, 一个是防止MITM等攻击(前端是https, 因此风险较小), 另一个是保证用户密码隐私(这一点投入产出实在是不成比例, 所以没有做)。
 
 后端(即加密密码存储)用的是 PBKDF2 with SHA2 的 rfc2898 标准实现. 类似还可以考虑 bcrypt, Argon2。
 
 后端加密的目的不仅是单向hash密码存储, 更重要的是需要保证被拖库后一定时间内密码无法被碰撞或破解(即使攻击者获得了你的加密方法的源代码), 从而有足够的时间去rehash。
 
-## Git 命令
-### 重置远端分支
+## 🌟 Git 命令
+### ⚡ 重置远端分支
 ```bash
 git fetch --all
 
@@ -23,30 +23,30 @@ git reset --hard origin/master // 远程分支名称
 git fetch
 ```
 
-### clone 指定分支
+### ⚡ clone 指定分支
 ```bash
-<!-- clone v1.0 分支  -->
+# clone v1.0 分支
 git clone -b v1.0 http://xxx.git
 ```
 
-### 更新fork工程
+### ⚡ 更新fork工程
 ```bash
-1. 添加源分支
+# 1. 添加源分支
 git remote add xxx git@github.com:author/repos.git
 
 git remote -v 查看
 
-2. fetch 源仓库代码的最新版本到本地
+# 2. fetch 源仓库代码的最新版本到本地
 git fetch xxx
 
-3. 合并两个版本的代码
+# 3. 合并两个版本的代码
 git merge xxx/master
 
-4. 更新到GitHub的fork上
+# 4. 更新到GitHub的fork上
 git push origin master
 ```
 
-## Yarn 命令
+## 🌟 Yarn 命令
 ```bash
 yarn 
 
@@ -57,13 +57,13 @@ yarn upgrade
 yarn remove
 ```
 
-## 重置 hosts
+## 🌟 重置 hosts
 
 ```bash
 ipconfig /flushdns
 ```
 
-## webp格式
+## 🌟 webp格式
 WebP 的优势体现在它具有更优的图像数据压缩算法，能带来更小的图片体积，而且拥有肉眼识别无差异的图像质量；同时具备了无损和有损的压缩模式、Alpha 透明以及动画的特性，在 JPEG 和 PNG 上的转化效果都非常优秀、稳定和统一。
 
 对于不同场景下 WebP 的使用，总结了一些解决方案，如下：
@@ -86,12 +86,14 @@ WebP 的优势体现在它具有更优的图像数据压缩算法，能带来更
 
   - iSparta（http://isparta.ghub）
 
-## ReasonML
+## 🌟 ReasonML
 ReasonML 是从 OCaml 语言衍生出来的，可以支持 JavaScript 的新的强类型语言。
 - 无争论的类型系统（Types without hassle），有效、安全的类型推论意味着你很少需要进行类型注释，但是它可以帮你检查所有内容的类型。
 - 简单的 JavaScript 交互（Easy JavaScript interop），可以没有任何麻烦的使用 NPM/Yarn 中的包，或者在你学习的时候，你甚至可以使用一小段 JavaScript。
 - 灵活有趣（Flexible & Fun），适用于网站、动画、游戏、服务、脚手架工具等。通过这些例子我们就可以得到灵感。
 
-## lodash
-
-## qs
+## 🌟 Mac
+### ⚡ 删除 `.DS_Store`
+```bash
+find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+```
