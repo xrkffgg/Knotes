@@ -17,14 +17,12 @@ sidebarDepth: 2
 ```bash
 npm install -S k-progress
 ```
-
 ## 开始使用
 ```js
 // main.js
 import 'k-progress';
 import 'k-progress/dist/k-progress.css';
 ```
-
 ## 例 子
 ### 基本用法
 > 可设置不同的 `type` 、`color` 、 `bg-color` 展示不同的颜色效果

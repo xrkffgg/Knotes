@@ -12,7 +12,6 @@ sidebarDepth: 2
 :::
 
 - 类声明不能提升
-
 ### 1.2 类表达式
 :::tip
 类表达式：一个表达式是定义一个类的另一种方式
@@ -36,7 +35,6 @@ let Rectangle = class Rectangle {
 };
 ```
 - 类表达式不能提升
-
 ### 1.2 类体和方法定义
 #### 严格模式
 类声明和类表达式的主体都执行在严格模式下。
@@ -90,7 +88,6 @@ function notStrict() {
 2. 在严格模式中再也不能通过广泛实现的ECMAScript扩展“游走于”JavaScript的栈中。
 3. 严格模式下的arguments不会再提供访问与调用这个函数相关的变量的途径。
 :::
-
 #### 构造函数
 `constructor` 方法用于创建和初始化一个由 `class` 创建的对象，一个类只能拥有一个名为 `constructor` 的特殊方法。
 
@@ -130,7 +127,6 @@ constructor(...args) {
 }
 ```
 :::
-
 #### 原型方法
 ```js
 class Rectangle {
@@ -153,7 +149,6 @@ const square = new Rectangle(10, 10);
 console.log(square.area);
 // 100
 ```
-
 #### 静态方法
 `static` 关键字用来定义一个类的一个静态方法。调用静态方法不需要实例化该类，但不能通过一个类实例调用静态方法。静态方法通常用于为一个应用程序创建工具函数。
 
@@ -177,6 +172,4 @@ const p2 = new Point(10, 10);
 
 console.log(Point.distance(p1, p2));
 ```
-
-
 ## 2 函数
