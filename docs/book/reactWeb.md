@@ -1,7 +1,8 @@
 ---
 sidebarDepth: 2
 ---
-# 🍭 React 学习
+# 🍭 React Web 学习
+> [https://react.docschina.org/](https://react.docschina.org/)
 ## 1 Props
 ### 1.1 纯函数
 :::tip
@@ -125,7 +126,7 @@ function handleClick(e) {
 ```
 ## 4 条件渲染
 ### 4.1 渲染判断
-#### `if`
+- `if`
 ```js
 function Greeting(props) {
   const isLoggedIn = props.isLoggedIn;
@@ -141,7 +142,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
-#### `&&`
+- `&&`
 ```js
 function Mailbox(props) {
   const unreadMessages = props.unreadMessages;
@@ -163,7 +164,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
-#### 三目运算符
+- 三目运算符
 ```js
 render() {
   const isLoggedIn = this.state.isLoggedIn;

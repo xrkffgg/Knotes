@@ -2,7 +2,7 @@
 sidebarDepth: 2
 ---
 
-# 🍭 JS 学习
+# 🍭 JS Web 学习
 > [MDN web docs](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes)
 ## 1 定义类
 类实际上是个“特殊的函数”。类语法有两个组成部分：类表达式和类声明。
