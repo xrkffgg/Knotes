@@ -48,7 +48,7 @@ module.exports = ctx => ({
         text: '教 程',
         link: '/course/list',
       },
-      { text: '提BUG', link: 'https://github.com/xrkffgg/xrkffgg.github.io/issues' },
+      { text: '提BUG', link: 'https://github.com/xrkffgg/Knotes/issues' },
       { text: 'GitHub', link: 'https://github.com/xrkffgg/Knotes' },
     ],
     lastUpdated: '上次更新',

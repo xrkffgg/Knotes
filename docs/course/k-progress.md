@@ -11,6 +11,7 @@ sidebarDepth: 2
 ![](https://img.shields.io/github/languages/code-size/xrkffgg/k-progress?color=orange&style=flat-square)
 ![](https://img.shields.io/github/stars/xrkffgg/k-progress?color=blueviolet&style=flat-square)
 ![](https://img.shields.io/github/license/xrkffgg/k-progress?color=red&style=flat-square)
+![](https://img.shields.io/npm/dt/k-progress?color=ff69b4&style=flat-square)
 
 ## 安 装
 ```bash
