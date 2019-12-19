@@ -6,8 +6,12 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**185**</span>
+- 当前数量为：<span style="color: red;">**186**</span>
 :::
+## 🕜 2019.12.19 <Badge text="+1"/>
+### [Wall-Breaker/Jump-Road](https://github.com/Wall-Breaker/Jump-Road)
+> 技术专栏【跃迁之路】，记录本人IT之路的思考与收获
+
 ## 🕐 2019.12.18 <Badge text="+3"/>
 ### [LingDong-/wenyan-lang](https://github.com/LingDong-/wenyan-lang)
 > 文言文編程語言 A programming language for the ancient Chinese.
