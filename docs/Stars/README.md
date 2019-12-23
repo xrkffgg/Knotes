@@ -6,8 +6,11 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**189**</span>
+- 当前数量为：<span style="color: red;">**190**</span>
 :::
+## 🕝 2019.12.23 <Badge text="+1"/>
+### [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub)
+> 万物皆可 RSS
 ## 🕑 2019.12.20 <Badge text="+3"/>
 ### [unbug/codelf](https://github.com/unbug/codelf)
 > A search tool helps dev to solve the naming things problem. 

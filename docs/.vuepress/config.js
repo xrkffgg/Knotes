@@ -1,5 +1,5 @@
 // 技术文章序号
-const BlogIndex = 13
+const BlogIndex = 14
 
 // https://vuepress.vuejs.org/zh/config
 module.exports = ctx => ({
