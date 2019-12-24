@@ -15,7 +15,7 @@ sidebarDepth: 2
 Class 组件应该始终使用 props 参数来调用父类的构造函数。
 :::
 ### 2.1 生命周期
-```js
+```jsx
 class Clock extends React.Component {
   constructor(props) {
     super(props);
@@ -63,7 +63,7 @@ ReactDOM.render(
 ### 2.3 不要直接修改 `State`，而应该使用 `setState()`
 ### 2.4 `State` 的更新可能是异步的
 以下代码可能无法更新计数器
-```js
+```jsx
 // Wrong
 this.setState({
   counter: this.state.counter + this.props.increment,
@@ -71,7 +71,7 @@ this.setState({
 ```
 
 要解决这个问题，可以让 `setState()` 接收一个 **函数** 而不是一个 对象。
-```js
+```jsx
 // Correct
 this.setState((state, props) => ({
   counter: state.counter + props.increment
@@ -83,7 +83,7 @@ this.setState((state, props) => ({
 - `React` 事件的命名采用小驼峰式（`camelCase`），而不是纯小写。
 - 使用 `JSX` 语法时你需要传入一个函数作为事件处理函数，而不是一个字符串。
 
-```js
+```jsx
 class Toggle extends React.Component {
   constructor(props) {
     super(props);
@@ -114,7 +114,7 @@ ReactDOM.render(
 );
 ```
 ### 3.1 阻止行为
-```js
+```jsx
 function handleClick(e) {
   e.preventDefault();
 }
@@ -127,7 +127,7 @@ function handleClick(e) {
 ## 4 条件渲染
 ### 4.1 渲染判断
 - `if`
-```js
+```jsx
 function Greeting(props) {
   const isLoggedIn = props.isLoggedIn;
   if (isLoggedIn) {
@@ -143,7 +143,7 @@ ReactDOM.render(
 );
 ```
 - `&&`
-```js
+```jsx
 function Mailbox(props) {
   const unreadMessages = props.unreadMessages;
   return (
@@ -165,7 +165,7 @@ ReactDOM.render(
 );
 ```
 - 三目运算符
-```js
+```jsx
 render() {
   const isLoggedIn = this.state.isLoggedIn;
   return (
@@ -177,7 +177,7 @@ render() {
 ```
 ### 4.2 阻止渲染
 返回 `null`，不进行任何渲染
-```js
+```jsx
 function WarningBanner(props) {
   if (!props.warn) {
     return null;
@@ -221,7 +221,7 @@ ReactDOM.render(
 );
 ```
 ## 5 列表 & Key
-```js
+```jsx
 function NumberList(props) {
   const numbers = props.numbers;
   const listItems = numbers.map((number) =>
@@ -252,3 +252,13 @@ ReactDOM.render(
 
 如果你选择不指定显式的 `key` 值，那么 `React` 将默认使用索引用作为列表项目的 `key` 值
 :::
+
+## 6 状态提升
+
+:::tip
+
+状态提升：将多个组件中需要共享的 state 向上移动到它们的最近共同父组件中，便可实现共享 state。
+
+:::
+
+在应用中，任何可变数据应当只有一个相对应的唯一“数据源”。通常，`state` 都是首先添加到需要渲染数据的组件中去。然后，如果其他组件也需要这个 `state`，那么你可以将它提升至这些组件的最近共同父组件中。

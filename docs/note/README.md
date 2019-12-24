@@ -89,3 +89,45 @@ ReasonML 是从 OCaml 语言衍生出来的，可以支持 JavaScript 的新的�
 ```bash
 find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
 ```
+
+## 🌟 前端三大框架对比
+| 语言      | 范式          | 背景                          | 公司           |
+| --------- | ------------- | ----------------------------- | -------------- |
+| `Angular` | 作用域        | 2.0 变更为 `TypeScript`       | 谷歌           |
+| `React`   | 组件          | `Class` => `Function`         | Facebook       |
+| `Vue`     | Html、js、css | 3.0 借鉴 `React` `Class` 形式 | 尤雨溪（阿里） |
+
+- 模板
+
+`Angular` 和 `Vue` 是基于模板进行编程的。解析模板，会消耗一定时间。
+
+`React` 使用 JSX 的形式，会解析成 JS。
+
+- 指令&组件
+
+`Angular` 采用指令的方式。
+
+`Vue` 采用组件方式。类似于配置文件，通过属性来控制组件的效果。
+
+`React` 采用 `Class` 类的方式来写组件，`React Hooks` 采用 `Function` 的方式。
+
+- 全家桶&散件
+
+`Angular` 官方功能完善。
+
+`React` 采用生态方式。千变万化。
+
+`Vue` 既有官方支持，也有生态的各种散件。
+
+- 移动端支持
+
+`Vue` 移动端框架 `Weex`，坑略多。
+
+`Angular` 无移动端支持。谷歌推出了 `Flutter` ，使用 `Dart` 语言。
+
+`React Native` 支持良好。
+
+### 总结
+
+- 三大框架不断趋于一致
+- `TypeScript` 流行起来了
