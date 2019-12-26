@@ -13,18 +13,18 @@ sidebarDepth: 2
 ![](https://img.shields.io/github/license/xrkffgg/k-progress?color=red&style=flat-square)
 ![](https://img.shields.io/npm/dt/k-progress?color=ff69b4&style=flat-square)
 
-## 安 装
+## 📦 安 装
 ```bash
 npm install -S k-progress
 ```
-## 开始使用
+## 🔨 开始使用
 ```js
 // main.js
 import 'k-progress';
 import 'k-progress/dist/k-progress.css';
 ```
-## 例 子
-### 基本用法
+## 🌀 例 子
+### 🌟 基本用法
 > 可设置不同的 `type` 、`color` 、 `bg-color` 展示不同的颜色效果
 
 <demo-code>
@@ -39,12 +39,49 @@ import 'k-progress/dist/k-progress.css';
         <k-progress :percent="50" color="#9254de"></k-progress>
         <k-progress :percent="60" :color="['#f5af19', '#f12711']"></k-progress>
         <k-progress :percent="70" :color="['#40a9ff', '#5cdbd3']" bg-color="#d9f7be"></k-progress>
+        <k-progress :percent="percent" :color="getColor"></k-progress>
       </div>
     </template>
+
+    <script>
+      export default {
+        data: {
+          return {
+            percent: 10,
+            ifUp: true,
+          }
+        },
+        mounted () {
+          const timer = setInterval(() =>{
+            if (this.ifUp) {
+              this.percent = this.percent + 10
+              this.percent == 100 ? this.ifUp = false : this.ifUp = true
+            } else {
+              this.percent = this.percent - 10
+              this.percent == 10 ? this.ifUp = true : this.ifUp = false
+            }
+          }, 1000);
+          this.$once('hook:beforeDestroy', () => clearInterval(timer));
+        },
+        methods: {
+          getColor(percent) {
+            if(percent < 25){
+              return '#ffc069';
+            } else if(percent < 50) {
+              return '#fadb14';
+            } else if(percent < 75) {
+              return '#13c2c2';
+            } else {
+              return '#389e0d';
+            }
+          }
+        },
+      }
+    </script>
   </highlight-code>
 </demo-code>
 
-### 高度设置
+### 🌟 高度设置
 > 可设置不同的 `line-height` 展示不同的尺寸，默认为 `6` 
 
 <demo-code>
@@ -61,7 +98,7 @@ import 'k-progress/dist/k-progress.css';
   </highlight-code>
 </demo-code>
 
-### 文字设置
+### 🌟 文字设置
 > 可通过 `show-text` 设置是否显示文字，可 `format` 自定义文字显示
 
 <demo-code>
@@ -91,7 +128,7 @@ import 'k-progress/dist/k-progress.css';
   </highlight-code>
 </demo-code>
 
-### 动效设置
+### 🌟 动效设置
 > 可通过 `active` 、 `active-color` 来设置进度条动态效果
 
 <demo-code>
@@ -108,17 +145,21 @@ import 'k-progress/dist/k-progress.css';
   </highlight-code>
 </demo-code>
 
-## 参 数
+## 📔 参 数
 |    参 数     |     类 型      |  默认值   |             可选值              |             说 明             |
 | :----------: | :------------: | :-------: | :-----------------------------: | :---------------------------: |
 |   percent    |     Number     |     0     |              0-100              |        百分比（必填）         |
 | line-height  |     Number     |     6     |                                 |          进度条高度           |
 |     type     |     String     |           | `success` / `warning` / `error` |          进度条类型           |
-|    color     | String / Array |           |                                 |          进度条颜色           |
+|    color     | String / Array / Function  |           |                                 |          进度条颜色；当使用 `Function` 时，参数为 `percent`           |
 |   bg-color   |     String     | `#ebeef5` |            颜色代码             |        进度条背景颜色         |
 |  show-text   |    Boolean     |  `true`   |                                 |      是否显示进度条文字       |
 |    format    |    Function    |           |                                 | 自定义文字显示，参数为percent |
 |    active    |    Boolean     |  `false`  |                                 |         是否开启动效          |
 | active-color | String / Array |           |                                 |           动效颜色            |
 
-## [GitHub](https://github.com/xrkffgg/k-progress)
+## 📒 更新日志
+- [更新日志](https://github.com/xrkffgg/k-progress/blob/master/CHANGELOG-CN.md)
+
+## GitHub
+- [GitHub](https://github.com/xrkffgg/k-progress)
