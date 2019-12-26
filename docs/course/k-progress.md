@@ -20,8 +20,8 @@ npm install -S k-progress
 ## 🔨 开始使用
 ```js
 // main.js
-import 'k-progress';
-import 'k-progress/dist/k-progress.css';
+import KProgress from 'k-progress';
+Vue.component('k-progress', KProgress);
 ```
 ## 🌀 例 子
 ### 🌟 基本用法
