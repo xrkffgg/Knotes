@@ -2,11 +2,11 @@
   <div class="demo">
     <div>
       <k-progress :percent="10" ></k-progress>
-      <k-progress :percent="20" type="success"></k-progress>
-      <k-progress :percent="30" type="warning"></k-progress>
-      <k-progress :percent="40" type="error"></k-progress>
+      <k-progress :percent="20" status="success"></k-progress>
+      <k-progress :percent="30" status="warning" :border="false"></k-progress>
+      <k-progress :percent="40" status="error"></k-progress>
       <k-progress :percent="50" color="#9254de"></k-progress>
-      <k-progress :percent="60" :color="['#f5af19', '#f12711']"></k-progress>
+      <k-progress :percent="60" :color="['#f5af19', '#f12711']" :border="false"></k-progress>
       <k-progress :percent="70" :color="['#40a9ff', '#5cdbd3']" bg-color="#d9f7be"></k-progress>
       <k-progress :percent="percent" :color="getColor"></k-progress>
     </div>
@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import kProgress from '../src/progress';
+import kProgress from '../src/kprogress';
 
 export default {
   components: {
@@ -40,11 +40,11 @@ export default {
   },
   methods: {
     getColor(percent) {
-      if(percent < 25){
+      if(percent < 40){
         return '#ffc069';
-      } else if(percent < 50) {
+      } else if(percent < 60) {
         return '#fadb14';
-      } else if(percent < 75) {
+      } else if(percent < 80) {
         return '#13c2c2';
       } else {
         return '#389e0d';

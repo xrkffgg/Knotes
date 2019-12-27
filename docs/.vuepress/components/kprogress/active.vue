@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import kProgress from '../src/progress';
+import kProgress from '../src/kprogress';
 
 export default {
   components: {
