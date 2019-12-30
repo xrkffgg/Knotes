@@ -6,7 +6,7 @@
       <k-progress :percent="30" status="warning" :border="false"></k-progress>
       <k-progress :percent="40" status="error"></k-progress>
       <k-progress :percent="50" color="#9254de"></k-progress>
-      <k-progress :percent="60" :color="['#f5af19', '#f12711']" :border="false"></k-progress>
+      <k-progress :percent="60" :color="['#f5af19', '#f12711', '#9254de', '#40a9ff', '#5cdbd3']" :border="false"></k-progress>
       <k-progress :percent="70" :color="['#40a9ff', '#5cdbd3']" bg-color="#d9f7be"></k-progress>
       <k-progress :percent="percent" :color="getColor"></k-progress>
     </div>

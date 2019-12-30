@@ -6,8 +6,32 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**192**</span>
+- 当前数量为：<span style="color: red;">**203**</span>
 :::
+
+## 🕞 2019.12.30 <Badge text="+11"/>
+### [AlloyTeam/AlloyImage](https://github.com/AlloyTeam/AlloyImage)
+> 基于HTML5的专业级图像处理开源引擎。
+### [0326/canvas](https://github.com/0326/canvas)
+> Awesome works with canvas.
+### [dsmelon/react-scratch-perfect](https://github.com/dsmelon/react-scratch-perfect)
+> 刮一刮
+### [buuing/vue-luck-draw](https://github.com/buuing/vue-luck-draw)
+> 一个基于vue的 转盘抽奖 插件
+### [woolson/npmer](https://github.com/woolson/npmer)
+> Generate customize npm logo online. 在线生成自定义npm徽标链接。
+### [ruralist-siyi/koa2-mysql-sequelize-JWT](https://github.com/ruralist-siyi/koa2-mysql-sequelize-JWT)
+> Node.js、koa2、sequelize and mysql、log4js、JWT ；Node.js全栈实战开发；前端taro实现了一个目标记录的weapp；
+### [AAChartKit-Swift](https://github.com/AAChartModel/AAChartKit-Swift)
+> 极其精美而又强大的跨平台数据可视化图表框架
+### [Tencent/Hippy](https://github.com/Tencent/Hippy)
+> A cross platform framework designed for Web developer. Introduction video
+### [vue-markdown](https://github.com/zhaoxuhui1122/vue-markdown)
+> 一款使用marked和highlight.js开发的一款markdown编辑器
+### [smart-admin](https://github.com/1024-lab/smart-admin)
+> SmartAdmin
+### [Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
+> 网易云音乐 Node.js API service
 ## 🕒 2019.12.24 <Badge text="+2"/>
 ### [muhammederdem/vue-interactive-paycard](https://github.com/muhammederdem/vue-interactive-paycard)
 > Credit card form with smooth and sweet micro-interactions

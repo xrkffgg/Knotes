@@ -1,10 +1,10 @@
 <template>
   <div class="demo">
     <div>
-      <k-progress :percent="40" ></k-progress>
-      <k-progress :percent="60" active></k-progress>
-      <k-progress :percent="80" active active-color="#262626"></k-progress>
-      <k-progress :percent="100" active :active-color="['#820014', '#ffec3d']"></k-progress>
+      <k-progress :percent="40" active></k-progress>
+      <k-progress :percent="60" active active-color="#f12711"></k-progress>
+      <k-progress :percent="80" active :color="['#f5af19', '#f12711', '#9254de', '#40a9ff', '#5cdbd3']"></k-progress>
+      <k-progress :percent="100" :color="['#f5af19', '#f12711', '#9254de', '#40a9ff', '#5cdbd3']" :color-flow="true"></k-progress>
     </div>
   </div>
 </template>

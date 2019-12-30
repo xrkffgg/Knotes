@@ -5,8 +5,7 @@ import vue from 'vue-highlight.js/lib/languages/vue';
 
 import 'highlight.js/styles/atom-one-dark-reasonable.css';
 
-import 'k-progress';  
-import 'k-progress/dist/k-progress.css';
+import './public/css/index.css'
 
 import DemoCode from './components/pub/demoCode.vue'
 
