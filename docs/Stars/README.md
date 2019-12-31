@@ -6,9 +6,13 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**203**</span>
+- 当前数量为：<span style="color: red;">**205**</span>
 :::
-
+## 🕓 2019.12.31 <Badge text="+2"/>
+### [NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif)
+> ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video.
+### [doocs/advanced-java](https://github.com/doocs/advanced-java)
+> 互联网 Java 工程师进阶知识完全扫盲
 ## 🕞 2019.12.30 <Badge text="+11"/>
 ### [AlloyTeam/AlloyImage](https://github.com/AlloyTeam/AlloyImage)
 > 基于HTML5的专业级图像处理开源引擎。
