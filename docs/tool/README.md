@@ -47,6 +47,9 @@ sidebarDepth: 2
 #### 10 数字滚动
 - [vue-count-to](https://github.com/PanJiaChen/vue-countTo)
 
+#### 11 图形转场
+- [amjet/](https://github.com/Rich-Harris/ramjet)
+
 ### 2.2 图 标
 #### 1 remixicon
 - [https://remixicon.com/](https://remixicon.com/)
@@ -60,9 +63,9 @@ sidebarDepth: 2
 
 ### 2.4 工具库
 #### 1 lodash
-
+- [lodash](https://www.lodashjs.com/docs/latest)
 #### 2 qs
-
+- [qs](https://github.com/ljharb/qs)
 ## 3. 网 址
 ### 3.1 工具类
 #### 1 astralapp

@@ -6,8 +6,25 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**205**</span>
+- 当前数量为：<span style="color: red;">**211**</span>
 :::
+## 🕟 2020.01.01 <Badge text="+6"/>
+### [microsoft/TypeScript](https://github.com/microsoft/TypeScript)
+> TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
+
+### [rstacruz/nprogress](https://github.com/rstacruz/nprogress)
+> For slim progress bars
+
+### [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac)
+> Now we have become very big, Different from the original idea.
+
+### [LinusBorg/portal-vue](https://github.com/LinusBorg/portal-vue)
+> A feature-rich Portal Plugin for Vuejs, for rendering DOM outside of a component, anywhere our app or the entire document.
+
+### [nodejs/node](https://github.com/nodejs/node)
+> Node.js JavaScript runtime
+### [Rich-Harris/ramjet](https://github.com/Rich-Harris/ramjet)
+> Morph DOM elements from one state to another with smooth animations and transitions 
 ## 🕓 2019.12.31 <Badge text="+2"/>
 ### [NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif)
 > ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video.
