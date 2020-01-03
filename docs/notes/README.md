@@ -233,7 +233,24 @@ This is a warning
 ::: danger Danger
 This is a dangerous warning
 :::
+### 🎲 MD 代码块
+
+```bash
+#bash
+```
+```js
+//js
+```
+```jsx
+//jsx
+```
+```diff
++ ++
+- --
+```
+
 ## 🎯 Element-UI
+
 ### 🎲 删除上传文件
 ```js
 let fs = document.getElementsByName("file")

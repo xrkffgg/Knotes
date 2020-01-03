@@ -6,8 +6,20 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**211**</span>
+- 当前数量为：<span style="color: red;">**215**</span>
 :::
+## 🕔 2020.01.03 <Badge text="+4"/>
+### [tailwindcss/tailwindcss](https://github.com/tailwindcss/tailwindcss)
+> A utility-first CSS framework for rapid UI development.
+
+### [Leecason/element-tiptap](https://github.com/Leecason/element-tiptap)
+> A WYSIWYG editor based on Tiptap and uses Element's components for Vue 
+
+### [scrumpy/tiptap](https://github.com/scrumpy/tiptap)
+> A rich-text editor for Vue.js 
+
+### [ziishaned/learn-regex](https://github.com/ziishaned/learn-regex)
+> Learn regex the easy way
 ## 🕟 2020.01.01 <Badge text="+6"/>
 ### [microsoft/TypeScript](https://github.com/microsoft/TypeScript)
 > TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
