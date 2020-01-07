@@ -6,8 +6,24 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**215**</span>
+- 当前数量为：<span style="color: red;">**220**</span>
 :::
+## 🕠 2020.01.07 <Badge text="+5"/>
+### [JedWatson/classnames](https://github.com/JedWatson/classnames)
+> A simple javascript utility for conditionally joining classNames together
+
+### [netyouli/whc_wechat_image_edit](https://github.com/netyouli/whc_wechat_image_edit)
+> 《节日头像生成》小程序
+
+### [victorqribeiro/isocity](https://github.com/victorqribeiro/isocity)
+> A isometric city builder in JavaScript 
+
+### [pugjs/pug](https://github.com/pugjs/pug)
+> Pug – robust, elegant, feature rich template engine for Node.js
+
+### [jashkenas/coffeescript](https://github.com/jashkenas/coffeescript)
+> Unfancy JavaScript
+
 ## 🕔 2020.01.03 <Badge text="+4"/>
 ### [tailwindcss/tailwindcss](https://github.com/tailwindcss/tailwindcss)
 > A utility-first CSS framework for rapid UI development.
