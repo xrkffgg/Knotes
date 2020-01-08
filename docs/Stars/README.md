@@ -6,8 +6,14 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**220**</span>
+- 当前数量为：<span style="color: red;">**222**</span>
 :::
+## 🕕 2020.01.08 <Badge text="+2"/>
+### [TangTangJia/taro-WYYmusic](https://github.com/TangTangJia/taro-WYYmusic)
+> taro + taro-ui + TypeScript 仿网易云音乐
+### [azirbel/touch-bar-timer](https://github.com/azirbel/touch-bar-timer)
+> Simple stopwatch for the mac touchbar
+
 ## 🕠 2020.01.07 <Badge text="+5"/>
 ### [JedWatson/classnames](https://github.com/JedWatson/classnames)
 > A simple javascript utility for conditionally joining classNames together

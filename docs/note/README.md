@@ -42,6 +42,20 @@ git merge xxx/master
 # 4. 更新到GitHub的fork上
 git push origin master
 ```
+### 恢复远端 commit
+```bash
+# 1. 查看 commit 历史
+git reflog
+
+# 2. 恢复 
+git reset --soft HEAD~1
+
+# 3. 取消暂存
+
+# 4. push 远端
+git push origin master --force
+```
+
 ## 🔥 Yarn 命令
 ```bash
 yarn 
