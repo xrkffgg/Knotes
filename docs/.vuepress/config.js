@@ -1,5 +1,6 @@
-// 技术文章序号
+// 文章序号
 const BlogIndex = 15
+const LifeIndex = 1
 
 // https://vuepress.vuejs.org/zh/config
 module.exports = ctx => ({
@@ -10,7 +11,7 @@ module.exports = ctx => ({
   description: '记 录',
   port: 8888,
   head: [
-    ['link', { rel: 'icon', href: `/ico1.png`}],
+    ['link', { rel: 'icon', href: `/ico1.png` }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
@@ -19,16 +20,16 @@ module.exports = ctx => ({
   themeConfig: {
     nav: [
       {
-        text: '主 页', 
+        text: '主 页',
         link: 'https://xrkffgg.github.io/'
       },
       {
-        text: '记 录', 
+        text: '记 录',
         items: [
           { text: '文 章', link: '/blog/' },
           { text: '参 考', link: '/notes/' },
           { text: '规 范', link: '/standard/' },
-          { text: 'Stars', link: '/Stars/' },
+          { text: 'Stars', link: '/stars/' },
         ]
       },
       {
@@ -37,7 +38,7 @@ module.exports = ctx => ({
           { text: '资 料', link: '/learn/' },
           { text: '工 具', link: '/tool/' },
           { text: '知 识', link: '/note/' },
-          { text: '随 想', link: '/Essay/' },
+          { text: '生 活', link: '/life/' },
         ]
       },
       {
@@ -48,7 +49,6 @@ module.exports = ctx => ({
         text: '教 程',
         link: '/course/list',
       },
-      { text: '提BUG', link: 'https://github.com/xrkffgg/Knotes/issues' },
       { text: 'GitHub', link: 'https://github.com/xrkffgg/Knotes' },
     ],
     lastUpdated: '上次更新',
@@ -58,9 +58,9 @@ module.exports = ctx => ({
       '/notes/': [''],
       '/learn/': [''],
       '/tool/': [''],
-      '/Stars/': [''],
+      '/stars/': [''],
       '/standard/': [''],
-      '/Essay/': [''],
+      '/life/': getLifeSidebar(),
       '/note/': [''],
       '/course/': getCourseSidebar(),
       '/book/': getBookSidebar(),
@@ -71,19 +71,34 @@ module.exports = ctx => ({
 function getBlogSidebar() {
   let arr = []
   let index = BlogIndex
-  for(let i=2; i<index+1;i++){
-    arr.push(''+i)
+  for (let i = 2; i < index + 1; i++) {
+    arr.push('' + i)
   }
   return [
     {
       title: '📄 文 章',
       collapsable: false,
-      children: ['',...arr]
+      children: ['', ...arr]
     }
   ]
 }
 
-function getCourseSidebar(){
+function getLifeSidebar() {
+  let arr = []
+  let index = LifeIndex
+  for (let i = 2; i < index + 1; i++) {
+    arr.push('' + i)
+  }
+  return [
+    {
+      title: '🎁 生 活',
+      collapsable: false,
+      children: ['', ...arr]
+    }
+  ]
+}
+
+function getCourseSidebar() {
   return [
     {
       title: '📦 教 程',
@@ -96,7 +111,7 @@ function getCourseSidebar(){
   ]
 }
 
-function getBookSidebar(){
+function getBookSidebar() {
   return [
     {
       title: '📚 阅 读',

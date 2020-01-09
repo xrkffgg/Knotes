@@ -8,6 +8,13 @@ sidebarDepth: 1
 
 - 当前数量为：<span style="color: red;">**222**</span>
 :::
+## 🕡 2020.01.09 <Badge text="+2"/>
+### [mdnice/markdown-nice)](https://github.com/mdnice/markdown-nice)
+> 支持自定义样式的微信 Markdown 排版工具
+
+### [torch2424/made-with-webassembly](https://github.com/torch2424/made-with-webassembly)
+> A showcase of awesome production applications, side projects, and use cases made with WebAssembly (Wasm).
+
 ## 🕕 2020.01.08 <Badge text="+2"/>
 ### [TangTangJia/taro-WYYmusic](https://github.com/TangTangJia/taro-WYYmusic)
 > taro + taro-ui + TypeScript 仿网易云音乐

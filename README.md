@@ -30,7 +30,9 @@
 > 有点坑的地方是，打包后，本地打开无主题，扔到 `GitHub.io` 正常。
 > 
 > `deploy.sh` 根据当前环境，仅供参考
+## 查看
 
+- http://localhost:8888/Knotes/
 ## LICENSE
 
 [MIT](https://github.com/xrkffgg/Knotes/blob/master/LICENSE)
