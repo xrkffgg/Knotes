@@ -6,8 +6,42 @@ sidebarDepth: 1
 ::: tip
 - 按时间倒序 记录个人 `GitHub` 中 `Stars` 的项目
 
-- 当前数量为：<span style="color: red;">**222**</span>
+- 当前数量为：<span style="color: red;">**235**</span>
 :::
+## 🕖 2020.01.16 <Badge text="+11"/>
+### [atomiks/moonlight-vscode-theme](https://github.com/atomiks/moonlight-vscode-theme)
+> A VS Code theme with bubblegum colors on a moonlit background
+
+### [jkchao/typescript-book-chinese](https://github.com/jkchao/typescript-book-chinese)
+> TypeScript Deep Dive 中文版
+
+### [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro)
+> Use Ant Design like a Pro! 
+
+### [BlameKidd/BaiduYunVIP](https://github.com/BlameKidd/BaiduYunVIP)
+> 百度云超级会员账号分享
+
+### [argos-ci/argos](https://github.com/argos-ci/argos)
+> Automate visual regression testing.
+
+### [sxei/pinyinjs](https://github.com/sxei/pinyinjs)
+> 一个实现汉字与拼音互转的小巧web工具库
+
+### [NG-ZORRO/today-ng-steps](https://github.com/NG-ZORRO/today-ng-steps)
+> 一步步学习 ng-zorro-antd 
+
+### [overtrue/pinyin](https://github.com/overtrue/pinyin)
+> 基于词库的中文转拼音优质解决方案
+
+### [ant-design/ant-design-colors](https://github.com/ant-design/ant-design-colors)
+> Color Palettes Calculator of Ant Design
+
+### [prevwong/craft.js](https://github.com/prevwong/craft.js)
+> A React Framework for building extensible drag and drop page editors
+
+### [ecomfe/echarts-for-weixin](https://github.com/ecomfe/echarts-for-weixin)
+> ECharts 的微信小程序版本
+
 ## 🕡 2020.01.09 <Badge text="+2"/>
 ### [mdnice/markdown-nice)](https://github.com/mdnice/markdown-nice)
 > 支持自定义样式的微信 Markdown 排版工具
