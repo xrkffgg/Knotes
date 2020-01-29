@@ -56,6 +56,17 @@ git reset --soft HEAD~1
 git push origin master --force
 ```
 
+### PR 更新
+```bash
+# 1. master 更新到最新
+
+# 2. rebase
+git rebase master
+
+# 3. push
+git push --force
+```
+
 ## 🔥 Yarn 命令
 ```bash
 yarn 
