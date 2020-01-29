@@ -29,7 +29,7 @@ module.exports = ctx => ({
           { text: '文 章', link: '/blog/' },
           { text: '参 考', link: '/notes/' },
           { text: '规 范', link: '/standard/' },
-          { text: 'Stars', link: '/stars/' },
+          // { text: 'Stars', link: '/stars/' },
         ]
       },
       {
