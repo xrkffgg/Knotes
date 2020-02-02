@@ -77,11 +77,33 @@ yarn upgrade
 
 yarn remove
 ```
-## 🔥 重置 hosts
+## 🔥 hosts
+
+### Windows 重置缓存
 
 ```bash
 ipconfig /flushdns
 ```
+### GitHub hosts
+
+```
+199.232.5.194 github.global.ssl.fastly.net
+192.30.253.113 github.com
+199.232.28.133 raw.githubusercontent.com
+199.232.28.133 camo.githubusercontent.com
+199.232.28.133 user-images.githubusercontent.com
+199.232.28.133 avatars0.githubusercontent.com
+199.232.28.133 avatars1.githubusercontent.com
+199.232.28.133 avatars2.githubusercontent.com
+199.232.4.133 avatars3.githubusercontent.com
+199.232.28.133 avatars4.githubusercontent.com
+199.232.28.133 avatars5.githubusercontent.com
+199.232.28.133 avatars6.githubusercontent.com
+199.232.28.133 avatars7.githubusercontent.com
+199.232.28.133 avatars8.githubusercontent.com
+199.232.28.133 avatars9.githubusercontent.com
+```
+
 ## 🔥 webp格式
 WebP 的优势体现在它具有更优的图像数据压缩算法，能带来更小的图片体积，而且拥有肉眼识别无差异的图像质量；同时具备了无损和有损的压缩模式、Alpha 透明以及动画的特性，在 JPEG 和 PNG 上的转化效果都非常优秀、稳定和统一。
 
