@@ -281,9 +281,11 @@ A > B：A 元素的一代 B 元素。A B选择 A 所有的后代 B 元素。
 ```
 ## 🎯 Tool
 ### 🎲 VSCode
-::: tip
-- 吹爆 `VSCode` + `cascadia-code` + `Atom One Dark` + `Material Icon Theme`
-:::
+| 字体                    | 主题                | 美化                  |
+| ----------------------- | ------------------- | --------------------- |
+| `Cascadia Code`         | `Atom One Dark`     | `Material Icon Theme` |
+| `JetBrainsMono-Regular` | `An Old Hope Theme` |                       |
+
 ### 🎲 Vuepress 自定义容器
 ::: tip TIP
 This is a tip
