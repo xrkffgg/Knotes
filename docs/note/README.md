@@ -47,10 +47,10 @@ git push origin master
 # 1. 查看 commit 历史
 git reflog
 
-# 2. 恢复 
+# 2. 恢复到指定 commit
 git reset --soft HEAD~1
 
-# 3. 取消暂存
+# 3. commit 处理
 
 # 4. push 远端
 git push origin master --force
@@ -85,6 +85,7 @@ yarn remove
 ipconfig /flushdns
 ```
 ### GitHub hosts
+https://www.ipaddress.com/
 
 ```
 140.82.114.3 github.com
