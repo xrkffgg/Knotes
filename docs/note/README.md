@@ -77,6 +77,31 @@ yarn upgrade
 
 yarn remove
 ```
+
+## 🔥 n 管理 node
+```bash
+#1.下载 n
+npm install -g n
+
+#2.下载 node
+n 版本号
+
+#3.下载最新 node
+n latest
+
+#4.删除某个版本
+n rm xxx
+
+#5.查看当前版本
+node -v 
+
+#6.切换版本
+n
+
+#7.以指定版本运行脚本
+n use xxx index.js
+```
+
 ## 🔥 hosts
 
 ### Windows 重置缓存
