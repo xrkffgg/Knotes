@@ -66,6 +66,14 @@ git rebase master
 # 3. push
 git push --force
 ```
+### submodule
+```bash
+# 初始化
+git submodule init
+
+# 检出
+git submodule update
+```
 
 ## 🔥 Yarn 命令
 ```bash
