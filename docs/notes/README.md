@@ -298,7 +298,9 @@ This is a warning
 ::: danger Danger
 This is a dangerous warning
 :::
-### 🎲 MD 代码块
+### 🎲 Markdown
+
+- **代码块**
 
 ```bash
 #bash
@@ -313,6 +315,19 @@ This is a dangerous warning
 + ++
 - --
 ```
+
+- **折叠**
+
+<details>
+<summary>Title</summary>
+
+content
+</details>
+
+- **勾选**
+
+- [ ] 1
+- [x] 2
 
 ## 🎯 Element-UI
 

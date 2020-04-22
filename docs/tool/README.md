@@ -52,6 +52,7 @@ sidebarDepth: 2
 
 #### 12 引导页
 - [driver.js](https://github.com/kamranahmedse/driver.js)
+- [intro.js](https://github.com/usablica/intro.js)
 
 ### 2.2 图 标
 #### 1 remixicon
