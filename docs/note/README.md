@@ -55,6 +55,11 @@ git reset --soft HEAD~1
 # 4. push 远端
 git push origin master --force
 ```
+### 撤销本地提交
+```bash
+# 撤销上一次提交
+git reset --soft HEAD^
+```
 
 ### PR 更新
 ```bash

@@ -312,6 +312,7 @@ This is a dangerous warning
 //jsx
 ```
 ```diff
+//diff
 + ++
 - --
 ```
