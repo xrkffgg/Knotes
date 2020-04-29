@@ -285,6 +285,7 @@ A > B：A 元素的一代 B 元素。A B选择 A 所有的后代 B 元素。
 | ----------------------- | ------------------- | --------------------- |
 | `Cascadia Code`         | `Atom One Dark`     | `Material Icon Theme` |
 | `JetBrainsMono-Regular` | `An Old Hope Theme` |                       |
+|                         | `Panda Theme`       |                       |
 
 ### 🎲 Vuepress 自定义容器
 ::: tip TIP
