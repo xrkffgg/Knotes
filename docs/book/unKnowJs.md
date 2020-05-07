@@ -111,7 +111,7 @@ var MyReallyCoolLibrary = {
 
 ### 2.2 函数作用域
 
-#### 函数表达式
+- 函数表达式
 
 ```js
 var a = 2;
@@ -133,3 +133,45 @@ console.log(a);  // 2
 ```
 
 如果 `function` 是声明中的第一个词，那么就是一个函数声明，否则就是一个函数表达式。
+
+> 始终给函数表达式命名是一个最佳实践。
+
+> IIFE（Immediately Invoked Function Expression）：立即执行函数。
+
+### 2.3 块作用域
+
+开发者需要检查自己的代码，避免在作用域范围外意外地使用（或复用）某些变量。
+
+- `with`
+- `try/catch`
+
+```js
+try {
+  undefined();	// 执行一个非法操作
+} catch (err) {
+  console.log(err);	// 能够正常执行
+}
+
+console.log(err);	// ReferenceError: err not found
+```
+
+- `let`
+
+在声明中的任意位置都可以使用 { .. } 括号来为 `let` 创建一个用于绑定的块。
+
+```js
+var foo = true;
+if(foo){
+  {	// <-- 显式的块
+    let bar = 1;
+  }
+}
+```
+
+- - 垃圾回收
+
+  ```
+  
+  ```
+
+  
