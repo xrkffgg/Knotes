@@ -168,10 +168,37 @@ if(foo){
 }
 ```
 
-- - 垃圾回收
+## 3 提升
 
-  ```
-  
-  ```
+```js
+foo();
 
-  
+function foo() {
+  console.log(a);	// undefined
+  var a = 2;
+}
+```
+
+- 每个作用域都会进行提升操作。
+- 函数声明会被提升，函数表达式不会被提升。
+
+```js
+function foo() {
+  var a;
+  console.log(a);	//undefined
+  a = 2;
+}
+
+foo();
+```
+
+```
+foo();	// 不是 ReferenceError，而是 TypeError!
+
+var foo() = function bar() {
+	// ...
+};
+```
+
+### 函数优先
+
