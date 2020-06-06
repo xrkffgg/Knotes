@@ -54,6 +54,9 @@ sidebarDepth: 2
 - [driver.js](https://github.com/kamranahmedse/driver.js)
 - [intro.js](https://github.com/usablica/intro.js)
 
+#### 13 缩放拖动
+- [https://github.com/kirillmurashov/vue-drag-resize](https://github.com/kirillmurashov/vue-drag-resize)
+
 ### 2.2 图 标
 #### 1 remixicon
 - [https://remixicon.com/](https://remixicon.com/)
