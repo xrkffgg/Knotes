@@ -326,6 +326,14 @@ This is a dangerous warning
 content
 </details>
 
+```html
+<details>
+<summary>Title</summary>
+
+content
+</details>
+```
+
 - **勾选**
 
 ```
