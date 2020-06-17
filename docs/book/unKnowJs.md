@@ -181,6 +181,7 @@ function foo() {
 
 - 每个作用域都会进行提升操作。
 - 函数声明会被提升，函数表达式不会被提升。
+- 变量声明会被提升，变量赋值不会被提升。
 
 ```js
 function foo() {
@@ -192,7 +193,7 @@ function foo() {
 foo();
 ```
 
-```
+```js
 foo();	// 不是 ReferenceError，而是 TypeError!
 
 var foo() = function bar() {
