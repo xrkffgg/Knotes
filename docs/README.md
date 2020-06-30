@@ -3,7 +3,7 @@ home: true
 heroImage: /logo.png
 actionText: Show →
 actionLink: /blog/
-footer: Copyright © 2019 xrkffgg
+footer: Copyright © 2020 xrkffgg
 features:
 - title: 📝 记 录
   details: 技术文章、日常摘记
@@ -13,7 +13,7 @@ features:
   details: 书籍摘抄、笔记分享
 ---
 
-## ʚ💖ɞ My Projects Introduce
+## My Projects Introduce
 
 <br/>
 
