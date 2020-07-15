@@ -9,7 +9,7 @@ sidebarDepth: 2
 ### 🎲 `vue` 阻止右键默认行为
 ```html
 <!--不阻止右键菜单(浏览器行为)，右键执行函数show-->
-<input type="button" value="按 钮" @contextmenu="show()"> 
+<input type="button" value="按 钮" @contextmenu="show()">
 
 <!--阻止右键菜单-->
 <input type="button" value="按 钮" @contextmenu.prevent>
@@ -231,14 +231,14 @@ console.log(window.location.host)
 ```
 ### 🎲 关闭当前页签
 ```js
-if (navigator.userAgent.indexOf("Firefox") != -1 || navigator.userAgent.indexOf("Chrome") != -1) {  
-  window.location.href="about:blank";  
-  window.close();  
+if (navigator.userAgent.indexOf("Firefox") != -1 || navigator.userAgent.indexOf("Chrome") != -1) {
+  window.location.href="about:blank";
+  window.close();
 } else {
-  window.opener = null;  
-  window.open("", "_self");  
-  window.close();  
-}  
+  window.opener = null;
+  window.open("", "_self");
+  window.close();
+}
 ```
 ### 🎲 取余
 ```js
@@ -263,7 +263,7 @@ Math.round(7/2)     // 3
 
 - `~`
 
-p ~ ul：前面有<p>元素的每个<ul>元素，即 p 之后的所有 ul，p 和 ul 必须拥有相同的父元素，但 ul 不必紧随 p。
+p ~ ul：前面有 p 元素的每个 ul 元素，即 p 之后的所有 ul，p 和 ul 必须拥有相同的父元素，但 ul 不必紧随 p。
 
 - `>`
 
