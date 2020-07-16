@@ -1,5 +1,5 @@
 // 文章序号
-const BlogIndex = 16
+const BlogIndex = 17
 const LifeIndex = 1
 
 // https://vuepress.vuejs.org/zh/config
