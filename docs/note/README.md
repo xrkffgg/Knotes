@@ -12,6 +12,18 @@ sidebarDepth: 1
 后端(即加密密码存储)用的是 PBKDF2 with SHA2 的 rfc2898 标准实现. 类似还可以考虑 bcrypt, Argon2。
 
 后端加密的目的不仅是单向hash密码存储, 更重要的是需要保证被拖库后一定时间内密码无法被碰撞或破解(即使攻击者获得了你的加密方法的源代码), 从而有足够的时间去rehash。
+
+## 🔥 package.json 版本号
+
+> [语义化版本 Semantic Versioning](https://semver.org/)
+
+1. 主版本号（major version）：当你做了不兼容的 API 修改。
+2. 次版本号（minor version）：当你做了向下兼容的功能性新增。
+3. 修订号（patch version）：当你做了向下兼容的问题修正。
+
+- `~1.12.1` : 会更新到最新的 minor 版本，即 1.12.x 最新。不会更新到 1.13.0 版本。
+- `^1.12.1` : 会更新到最新的 major 版本，即 1.x 最新。不会更新到 2.x 版本。
+
 ## 🔥 Git 命令
 ### 重置远端分支
 ```bash
