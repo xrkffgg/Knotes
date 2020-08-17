@@ -144,6 +144,30 @@ window.open(href, '_blank')
 - 只会渲染元素和组件一次，随后的重新渲染，元素和组件以及所有的子节点都会被视为静态内容被跳过。
 - 当组件中包含大量静态内容时，可在根元素上添加这个指令，确保内容只计算一次然后缓存起来。
 
+## 🎯 React
+
+### 🎲 测试相关
+
+- [#26486](https://github.com/ant-design/ant-design/pull/26186)
+  - 生命周期测试
+  - 全局方法调用测试
+
+```js
+it('should support to clear selection', async () => {
+  const wrapper = mount(<Cascader options={options} defaultValue={['zhejiang', 'hangzhou']} />);
+  const willUnmount = jest.spyOn(wrapper.instance(), 'componentWillUnmount');
+  const clearTimeoutSpy = jest.spyOn(global, 'clearTimeout');
+  expect(wrapper.find('.ant-cascader-picker-label').text()).toBe('Zhejiang / Hangzhou');
+  wrapper.find('.ant-cascader-picker-clear').at(0).simulate('click');
+  await sleep(300);
+  expect(wrapper.find('.ant-cascader-picker-label').text()).toBe('');
+  wrapper.unmount();
+  expect(willUnmount).toHaveBeenCalled();
+  expect(clearTimeoutSpy).toHaveBeenCalled();
+  clearTimeoutSpy.mockRestore();
+});
+```
+
 ## 🎯 JS
 
 ### 🎲 数组相关
