@@ -205,3 +205,60 @@ var foo() = function bar() {
 
 函数会首先被提升，然后才是变量。
 
+## 4 this 解析
+
+### 4.1 绑定规则
+
+1. 默认绑定
+
+```js
+function foo() {
+  console.log( this.a );
+}
+
+var a = 2;
+
+foo(); // 2
+```
+
+当在 foo() 里使用 “use strict” 时，将会显示 `this is undefined` 。
+
+2. 隐形绑定
+
+```js
+function foo() {
+	console.log( this.a );
+}
+
+var obj = {
+  a: 2;
+  foo: foo;
+}
+
+obj.boo(); // 2
+```
+
+对象属性引用链中只有上一层或者说最后一层在调用位置中起作用。
+
+- 隐式丢失
+
+```js
+function foo() {
+	console.log(this.a)
+}
+
+var obj = {
+  a: 2;
+  foo: foo;
+}
+
+var bar = obj.foo();	// 函数别名
+
+var a = 'global';
+
+bar();	// 'global'
+```
+
+回调函数、系统函数 `setTimeout() ` 也会造成这种现象。
+
+3. 显示绑定
