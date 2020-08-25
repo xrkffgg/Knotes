@@ -168,6 +168,25 @@ it('should support to clear selection', async () => {
 });
 ```
 
+### 🎲 Enzyme 
+
+- API
+
+```
+.get(index)：返回指定位置的子组件的DOM节点
+.at(index)：返回指定位置的子组件
+.first()：返回第一个子组件
+.last()：返回最后一个子组件
+.type()：返回当前组件的类型
+.text()：返回当前组件的文本内容
+.html()：返回当前组件的HTML代码形式
+.props()：返回根组件的所有属性
+.prop(key)：返回根组件的指定属性
+.state([key])：返回根组件的状态
+.setState(nextState)：设置根组件的状态
+.setProps(nextProps)：设置根组件的属性
+```
+
 ## 🎯 JS
 
 ### 🎲 数组相关
