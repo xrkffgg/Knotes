@@ -46,8 +46,12 @@ sidebarDepth: 2
 3. `docs` ：文档（documentation）
 4. `style` ： 格式（不影响代码运行的变动）
 5. `refactor` ：重构（即不是新增功能，也不是修改bug的代码变动）
-6. `test` ：增加测试
-7. `chore` ：构建过程或辅助工具的变动
+6. `perf` ：性能、体验优化
+7. `test` ：增加、更新测试
+8. `chore` ：构建过程或辅助工具的变动
+9. `build` ：构建变动
+10. `ci` ：集成变动
+11. `revert` ： 回滚某个提交
 
 如果 `type` 为 `feat` 和 `fix`，则该 `commit` 将肯定出现在 Change log 之中。其他情况由你决定，要不要放入 Change log，建议是不要。
 
