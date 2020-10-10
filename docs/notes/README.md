@@ -221,6 +221,11 @@ var max = Math.max.apply(Math, List.map(function(o) {return o.num}))
 ```js
 let max = Math.max(...arr)
 ```
+#### 5. 数组排序
+```js
+arrays.sort((a, b) => a.name.localeCompare(b.name))
+```
+
 ### 🎲 字符串相关
 #### 1. 去空格
 ```js
