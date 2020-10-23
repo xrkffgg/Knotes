@@ -93,12 +93,29 @@ git submodule update
 ```
 ## 🔥 Yarn 命令
 ```bash
+# 初始化
 yarn 
 
-yarn (global) add
+# 添加依赖
+yarn add [pavkage]
+yarn add [package]@[version]
+yarn add [package]@[tag]
 
-yarn upgrade
+# 不同类别
+yarn add [package] --dev      # devDependencies
+yarn add [package] --peer     # peerDependencies
+# 当一个依赖项 c 被列在某个包 b 的 peerDependency 中时，它就不会被自动安装。取而代之的是，包含了 b 包的代码库 a 则必须将对应的依赖项 c 包含为其依赖。
+yarn add [package] --optional # optionalDependencies
+# 可选依赖，如果有一些依赖包即使安装失败，项目仍然能够运行或者希望npm继续运行，就可以使用optionalDependencies。另外optionalDependencies会覆盖dependencies中的同名依赖包。
 
+yarn (global) add             # 全局安装
+
+# 升级依赖包
+yarn upgrade [package]
+yarn upgrade [package]@[version]
+yarn upgrade [package]@[tag]
+
+# 移除依赖包
 yarn remove
 ```
 
