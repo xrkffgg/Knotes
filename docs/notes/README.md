@@ -349,6 +349,13 @@ A > B：A 元素的一代 B 元素。A B选择 A 所有的后代 B 元素。
 ln -S (source) (targe)
 ```
 
+## 🎯 打包
+
+```bash
+# 设置运行内存
+"build": "npm run compile && NODE_OPTIONS='--max-old-space-size=4096' npm run dist",
+```
+
 ## 🎯 Tool
 
 ### 🎲 VSCode
