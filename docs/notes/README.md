@@ -423,7 +423,7 @@ content
 
 - 一组配色
 ```js
-color: [
+colors: [
   '#60acfc',
   '#32d3eb',
   '#5bc49f',
