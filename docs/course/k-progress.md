@@ -15,15 +15,27 @@ sidebarDepth: 2
 
 ## 📦 安 装
 ```bash
+# vue2
 npm install -S k-progress
+# vue3
+npm install -S k-progress-v3
 # or
 yarn add k-progress
+yarn add k-progress-v3
 ```
 ## 🔨 开始使用
 ```js
-// main.js
+// main.js - vue2
 import KProgress from 'k-progress';
 Vue.component('k-progress', KProgress);
+
+// main.js - vue3
+import KProgress from 'k-progress';
+
+const app = createApp(App);
+app
+  .component('k-progress', KProgress)
+  .mount('#app');
 ```
 ## 🌀 例 子
 ### 🌟 基本用法
@@ -184,7 +196,9 @@ Vue.component('k-progress', KProgress);
 | active-color |          String           |           |                                 |                                     动效颜色                                      |
 
 ## 📒 更新日志
-- [更新日志](https://github.com/xrkffgg/k-progress/blob/master/CHANGELOG-CN.md)
+- [vue2](https://github.com/xrkffgg/k-progress/blob/master/CHANGELOG-CN.md)
+- [vue3](https://github.com/xrkffgg/k-progress-v3/blob/main/CHANGELOG-CN.md)
 
 ## GitHub
-- [GitHub](https://github.com/xrkffgg/k-progress)
+- [vue2](https://github.com/xrkffgg/k-progress)
+- [vue3](https://github.com/xrkffgg/k-progress-v3)

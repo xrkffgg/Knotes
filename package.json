@@ -12,6 +12,6 @@
   },
   "devDependencies": {
     "less": "^3.10.3",
-    "vuepress": "^1.0.3"
+    "vuepress": "1.0.3"
   }
 }
