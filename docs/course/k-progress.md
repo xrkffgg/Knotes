@@ -197,7 +197,7 @@ app
 
 ## 📒 更新日志
 - [vue2](https://github.com/xrkffgg/k-progress/blob/master/CHANGELOG-CN.md)
-- [vue3](https://github.com/xrkffgg/k-progress-v3/blob/main/CHANGELOG-CN.md)
+- [vue3](https://github.com/xrkffgg/k-progress-v3/blob/main/CHANGELOG.md)
 
 ## GitHub
 - [vue2](https://github.com/xrkffgg/k-progress)
