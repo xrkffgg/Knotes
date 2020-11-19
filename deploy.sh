@@ -5,6 +5,9 @@ git push origin master
 
 yarn build
 
+cd ../xrkffgg.github.io/
+git pull
+
 cd ..
 rm -rf xrkffgg.github.io/Knotes/
 cp -a Knotes/Knotes/ xrkffgg.github.io/Knotes/
