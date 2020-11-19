@@ -347,7 +347,7 @@ A > B：A 元素的一代 B 元素。A B选择 A 所有的后代 B 元素。
 
 ```bash
 # copy mirror
-ln -S (source) (targe)
+ln -s (source) (targe)
 ```
 
 ## 🎯 打包

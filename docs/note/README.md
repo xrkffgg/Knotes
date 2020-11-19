@@ -91,6 +91,13 @@ git submodule init
 # 检出
 git submodule update
 ```
+
+### 忽略 eslint 校验提交
+
+```bash
+git commit --no-verify -m "commit"
+```
+
 ## 🔥 Yarn 命令
 ```bash
 # 初始化
