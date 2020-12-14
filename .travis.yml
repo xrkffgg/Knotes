@@ -26,4 +26,4 @@ deploy:
   github_token: $TRAVIS_TOKEN_KEY
   local_dir: Knotes
   on:
-    branch: main
+    branch: master
