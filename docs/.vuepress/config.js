@@ -1,6 +1,6 @@
 // 文章序号
 const BlogIndex = 17
-const LifeIndex = 1
+const LifeIndex = 2
 
 // https://vuepress.vuejs.org/zh/config
 module.exports = ctx => ({
