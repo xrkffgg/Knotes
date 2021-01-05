@@ -231,6 +231,14 @@ find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
 sudo chown -R xrk ~/.npm 
 ```
 
+### 解决 node 请求访问网络
+
+```bash
+where node
+
+sudo codesign -f -s - --deep /usr/local/bin/node
+```
+
 ## 🔥 前端三大框架对比
 | 语言      | 范式          | 背景                          | 公司           |
 | --------- | ------------- | ----------------------------- | -------------- |

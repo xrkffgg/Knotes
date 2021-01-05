@@ -65,7 +65,11 @@ module.exports = ctx => ({
       '/course/': getCourseSidebar(),
       '/book/': getBookSidebar(),
     }
-  }
+  },
+  plugins: [
+    '@vuepress/back-to-top',
+    '@vuepress/nprogress',
+  ]
 })
 
 function getBlogSidebar() {
