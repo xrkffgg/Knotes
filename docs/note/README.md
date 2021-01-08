@@ -84,12 +84,17 @@ git rebase master
 git push --force
 ```
 ### submodule
+
 ```bash
+# 主项目 clone 下后执行
 # 初始化
 git submodule init
 
 # 检出
 git submodule update
+
+# 直接 clone
+git clone xx --recursive
 ```
 
 ### 忽略 eslint 校验提交
