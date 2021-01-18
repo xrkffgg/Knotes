@@ -7,7 +7,7 @@ sidebarDepth: 2
 - 记录开发过程中 知识点
 :::
 ## 🎯 Vue
-### 🎲 `vue` 阻止右键默认行为
+### `vue` 阻止右键默认行为
 ```html
 <!--不阻止右键菜单(浏览器行为)，右键执行函数show-->
 <input type="button" value="按 钮" @contextmenu="show()">
@@ -18,7 +18,7 @@ sidebarDepth: 2
 <!--阻止右键菜单(浏览器行为)，右键执行函数show-->
 <input type="button" value="按 钮" @contextmenu.prevent="show()">
 ```
-### 🎲 `vue` 组件销毁时去除定时器
+### `vue` 组件销毁时去除定时器
 ```js
 mounted(){
   const timer = setInterval(() =>{
@@ -28,7 +28,7 @@ mounted(){
   this.$once('hook:beforeDestroy', () => clearInterval(timer))
 }
 ```
-### 🎲 `vue` 的 `<script>`
+### `vue` 的 `<script>`
 ```js
 mixins: [],
 
@@ -82,7 +82,7 @@ methods: {
   },
 },
 ```
-### 🎲 `provide` 与 `inject`
+### `provide` 与 `inject`
 
 这对选项需要一起使用，以允许一个祖先组件向其所有子孙后代注入一个依赖，不论组件层次有多深，并在起上下游关系成立的时间里始终生效。
 
@@ -99,7 +99,7 @@ provide(){
 // 子组件中可以调用 `doSome` 方法
 inject: ['doSome'],
 ```
-### 🎲 路由跳转
+### 路由跳转
 
 #### 1. 当前页面跳转
 
@@ -138,7 +138,7 @@ window.open(href, '_blank')
 | replace() | 跳转到指定的 url，不会向 history 里面添加新的记录，点击返回，会跳转到上上一个页面。上一个记录是不存在的。 |
 | go(n)     | 相对于当前页面向前或向后跳转多少个页面,类似 `window.history.go(n)`。n 可为正数可为负数。正数返回上一个页面 |
 
-### 🎲 标签
+### 标签
 
 #### v-once
 
@@ -147,7 +147,7 @@ window.open(href, '_blank')
 
 ## 🎯 单测
 
-### 🎲 相关
+### 相关
 
 - [#26486](https://github.com/ant-design/ant-design/pull/26186)
   - React 生命周期测试
@@ -169,7 +169,7 @@ it('should support to clear selection', async () => {
 });
 ```
 
-### 🎲 Enzyme 
+### Enzyme 
 
 - API
 
@@ -189,7 +189,7 @@ it('should support to clear selection', async () => {
 .setProps(nextProps)：设置根组件的属性
 ```
 
-### 🎲 jest 模拟时间
+### jest 模拟时间
 
 ```js
 // before
@@ -200,9 +200,135 @@ jest.runAllTimers();
 jest.useRealTimers();
 ```
 
+### 测试原生方法
+
+- ref: https://github.com/image-component/react-image-dangling/blob/main/tests/hover.spec.tsx
+
+```js
+describe('Hover', () => {
+  const testSrc =
+    'https://github.com/image-component/gallery/blob/main/girl/1.jpg?raw=true';
+
+  let originOffsetWidth;
+  let originOffsetHeight;
+
+  beforeAll(() => {
+    originOffsetWidth = Object.getOwnPropertyDescriptor(
+      HTMLElement.prototype,
+      'offsetWidth',
+    ).get;
+    originOffsetHeight = Object.getOwnPropertyDescriptor(
+      HTMLElement.prototype,
+      'offsetHeight',
+    ).get;
+
+    Object.defineProperty(HTMLElement.prototype, 'offsetWidth', {
+      get() {
+        return 100;
+      },
+    });
+    Object.defineProperty(HTMLElement.prototype, 'offsetHeight', {
+      get() {
+        return 100;
+      },
+    });
+  });
+
+  afterAll(() => {
+    Object.defineProperty(HTMLElement.prototype, 'offsetWidth', {
+      get: originOffsetWidth,
+    });
+    Object.defineProperty(HTMLElement.prototype, 'offsetHeight', {
+      get: originOffsetHeight,
+    });
+  });
+
+  it('mouse', () => {
+    const wrapper = mount(
+      <ImageDangling src={testSrc} hoverScale={1.4} hoverSlope={40} />,
+    );
+    const node = wrapper.find('.react-image-dangling');
+    node.simulate('mouseOver', {});
+    expect(
+      wrapper.find('.react-image-dangling-card').prop('style').opacity,
+    ).toEqual(1);
+
+    node.simulate('mouseMove', {
+      nativeEvent: {
+        offsetX: 99,
+        offsetY: 99,
+      },
+    });
+
+    expect(
+      wrapper.find('.react-image-dangling').prop('style').transform,
+    ).toEqual('perspective(500px) scale(1.4) rotateY(20deg) rotateX(-20deg)');
+
+    node.simulate('mouseLeave', {});
+
+    expect(
+      wrapper.find('.react-image-dangling').prop('style').transform,
+    ).toEqual('perspective(500px) scale(1)');
+    expect(
+      wrapper.find('.react-image-dangling-card').prop('style').opacity,
+    ).toEqual(0);
+  });
+});
+```
+
+- ref: https://github.com/image-component/react-image-follow/blob/main/tests/hover.spec.tsx
+
+```js
+describe('Hover', () => {
+  const testSrc =
+    'https://github.com/image-component/gallery/blob/main/girl/1.jpg?raw=true';
+
+  beforeAll(() => {
+    spyOn(HTMLElement.prototype, 'getBoundingClientRect').and.returnValue({
+      left: 10,
+      top: 10,
+      width: 10,
+      height: 10,
+    });
+  });
+
+  it('mouse', () => {
+    const wrapper = mount(<ImageFollow src={testSrc} />);
+    const node = wrapper.find('.react-image-follow');
+
+    node.simulate('mouseMove', {
+      nativeEvent: {
+        clientX: 100,
+        clientY: 100,
+      },
+    });
+
+    expect(
+      wrapper.find('.react-image-follow-wrapper').prop('style').transform,
+    ).toEqual(
+      'scale(1.025) translate(calc(85 / 50 * 1px), calc(85 / 50 * 1px))',
+    );
+
+    expect(
+      wrapper.find('.react-image-follow-img').prop('style').transform,
+    ).toEqual('translate(calc(85 / 20 * 1px), calc(85 / 20 * 1px))');
+
+    node.simulate('mouseLeave', {});
+
+    expect(
+      wrapper.find('.react-image-follow-wrapper').prop('style').transform,
+    ).toEqual('none');
+    expect(
+      wrapper.find('.react-image-follow-img').prop('style').transform,
+    ).toEqual('none');
+  });
+});
+```
+
+
 ## 🎯 JS
 
-### 🎲 数组相关
+### 数组相关
 #### 1. 判断元素是否在数组中
 ```js
 [0, 1, 2].includes(0)   // true
@@ -227,7 +353,7 @@ let max = Math.max(...arr)
 arrays.sort((a, b) => a.name.localeCompare(b.name))
 ```
 
-### 🎲 字符串相关
+### 字符串相关
 #### 1. 去空格
 ```js
 str.trim()                    //去除字符串开头和结尾的所有空格
@@ -252,7 +378,7 @@ const before = str.substring(0, point);          // 不包含分割
 const after = str.substring(point, str.length);  // 包含分割
 ```
 
-### 🎲 `in` 用法
+### `in` 用法
 
 > 集合遍历的效率为：`hash > for(;;) > for(in)`
 #### 1. 判断属性属于对象
@@ -282,7 +408,7 @@ if(k == 'a' || k == 'b' || k == 'c') {}
 if( k in {'a':'', 'b':'', 'c':''})
 
 ```
-### 🎲 `length` 判断
+### `length` 判断
 ```js
 // old
 if(a.length > 0){
@@ -295,7 +421,7 @@ if(a.length > 0){
 
 > 不仅是 0 ，也适用于 其他 ''、null、undefined
 
-### 🎲 时间函数
+### 时间函数
 
 ```js
 var myDate = new Date();
@@ -347,17 +473,17 @@ toLocaleTimeString()      // 根据本地时间格式，把 Date 对象的时间
 toLocaleDateString()      // 根据本地时间格式，把 Date 对象的日期部分转换为字符串。
 ```
 
-### 🎲 JSON 转化
+### JSON 转化
 ```js
 JSON.stringify()  // 转字符串
 JSON.parse()      // 转JSON
 ```
-### 🎲 获取当前URL Ip/Host
+### 获取当前URL Ip/Host
 ```js
 <!-- 获取当前URL ip -->
 console.log(window.location.host)
 ```
-### 🎲 关闭当前页签
+### 关闭当前页签
 ```js
 if (navigator.userAgent.indexOf("Firefox") != -1 || navigator.userAgent.indexOf("Chrome") != -1) {
   window.location.href="about:blank";
@@ -368,7 +494,7 @@ if (navigator.userAgent.indexOf("Firefox") != -1 || navigator.userAgent.indexOf(
   window.close();
 }
 ```
-### 🎲 取余
+### 取余
 ```js
 // 丢弃小数部分,保留整数部分
 parseInt(7/2)       // 3
@@ -387,7 +513,7 @@ Math.round(7/2)     // 3
 ```
 ## 🎯 CSS
 
-### 🎲 符号
+### 符号
 
 - `~`
 
@@ -402,7 +528,7 @@ A > B：A 元素的一代 B 元素。A B选择 A 所有的后代 B 元素。
 选择相邻兄弟。A + B 表示紧随 A 的 B 元素。A + A：只能选择两个相邻兄弟中的第二个元素。
 
 ## 🎯 HTML
-### 🎲 符号
+### 符号
 ```html
 &nbsp;  // (空格)
 \xa0    // (空格)
@@ -410,7 +536,7 @@ A > B：A 元素的一代 B 元素。A B选择 A 所有的后代 B 元素。
 ```
 ## 🎯 Shell
 
-### 🎲 命令
+### 命令
 
 ```bash
 # copy mirror
@@ -426,14 +552,14 @@ ln -s (source) (targe)
 
 ## 🎯 Tool
 
-### 🎲 VSCode
+### VSCode
 | 字体                    | 主题                | 美化                  |
 | ----------------------- | ------------------- | --------------------- |
 | `Cascadia Code`         | `Atom One Dark`     | `Material Icon Theme` |
 | `JetBrainsMono-Regular` | `An Old Hope Theme` |                       |
 | `DejaVuSansMono`        | `Panda Theme`       |                       |
 
-### 🎲 Vuepress 自定义容器
+### Vuepress 自定义容器
 ::: tip TIP
 This is a tip
 :::
@@ -445,7 +571,7 @@ This is a warning
 ::: danger Danger
 This is a dangerous warning
 :::
-### 🎲 Markdown
+### Markdown
 
 - **代码块**
 
@@ -489,7 +615,7 @@ content
 - [x] 2
 ```
 
-### 🎲 零碎
+### 零碎
 
 - 一组配色
 ```js
@@ -515,7 +641,7 @@ colors: [
 ```
 ## 🎯 Element-UI
 
-### 🎲 删除上传文件
+### 删除上传文件
 ```js
 let fs = document.getElementsByName("file")
 if(fs.length > 0){
