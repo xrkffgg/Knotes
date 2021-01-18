@@ -202,7 +202,7 @@ jest.useRealTimers();
 
 ### 测试原生方法
 
-- ref: https://github.com/image-component/react-image-dangling/blob/main/tests/hover.spec.tsx
+- ref: [https://github.com/image-component/react-image-dangling/blob/main/tests/hover.spec.tsx](https://github.com/image-component/react-image-dangling/blob/main/tests/hover.spec.tsx)
 
 ```js
 describe('Hover', () => {
@@ -276,7 +276,7 @@ describe('Hover', () => {
 });
 ```
 
-- ref: https://github.com/image-component/react-image-follow/blob/main/tests/hover.spec.tsx
+- ref: [https://github.com/image-component/react-image-follow/blob/main/tests/hover.spec.tsx](https://github.com/image-component/react-image-follow/blob/main/tests/hover.spec.tsx)
 
 ```js
 describe('Hover', () => {
