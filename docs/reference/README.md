@@ -200,6 +200,15 @@ jest.runAllTimers();
 jest.useRealTimers();
 ```
 
+### `expect(wrapper).toMatchSnapshot()` 显示 json
+
+```js
+// jest.config.js
+module.exports = {
+  snapshotSerializers: [require.resolve('enzyme-to-json/serializer')],
+};
+```
+
 ### 测试原生方法
 
 - ref: [https://github.com/image-component/react-image-dangling/blob/main/tests/hover.spec.tsx](https://github.com/image-component/react-image-dangling/blob/main/tests/hover.spec.tsx)
