@@ -147,6 +147,10 @@ window.open(href, '_blank')
 
 ## 🎯 单测
 
+::: tip TIP
+主旨：修改了什么，测试什么
+:::
+
 ### 相关
 
 - [#26486](https://github.com/ant-design/ant-design/pull/26186)
@@ -169,7 +173,7 @@ it('should support to clear selection', async () => {
 });
 ```
 
-### Enzyme 
+### Enzyme
 
 - API
 
