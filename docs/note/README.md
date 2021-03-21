@@ -103,10 +103,19 @@ git clone xx --recursive
 git commit --no-verify -m "commit"
 ```
 
+### 删除 tag
+
+```bash
+# 远端
+git push origin :refs/tags/v1.0.0
+# 本地
+git tag -d v1.0.0
+```
+
 ## 🔥 Yarn 命令
 ```bash
 # 初始化
-yarn 
+yarn
 
 # 添加依赖
 yarn add [pavkage]
@@ -160,7 +169,7 @@ n latest
 n rm xxx
 
 #5.查看当前版本
-node -v 
+node -v
 
 #6.切换版本
 n
@@ -233,7 +242,7 @@ find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
 ### 更改文件用户权限
 ```bash
 # 如：当前用户 xrk
-sudo chown -R xrk ~/.npm 
+sudo chown -R xrk ~/.npm
 ```
 
 ### 解决 node 请求访问网络
